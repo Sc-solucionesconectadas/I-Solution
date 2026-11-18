@@ -3,12 +3,16 @@ import { readFile, stat } from 'node:fs/promises';
 import { resolve, extname, sep } from 'node:path';
 const root = resolve(import.meta.dirname, '../dist');
 const port = Number(process.env.PORT ?? 4175);
-const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.pdf': 'application/pdf', '.mp4': 'video/mp4', '.vtt': 'text/vtt; charset=utf-8', '.woff2': 'font/woff2', '.txt': 'text/plain; charset=utf-8', '.xml': 'application/xml' };
+const types = { '.html': 'text/html; charset=utf-8', '.json': 'application/json; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.pdf': 'application/pdf', '.mp4': 'video/mp4', '.vtt': 'text/vtt; charset=utf-8', '.woff2': 'font/woff2', '.txt': 'text/plain; charset=utf-8', '.xml': 'application/xml' };
 const server = http.createServer(async (req, res) => {
   try {
     if (!['GET', 'HEAD'].includes(req.method)) { res.writeHead(405, { Allow: 'GET, HEAD' }); return res.end(); }
     const url = new URL(req.url, 'http://localhost');
     if (url.pathname === '/') { res.writeHead(302, { Location: '/instrumental-solution/' }); return res.end(); }
+    if (/^\/instrumental-solution\/catalogo(?:\/(?:index\.html)?)?$/.test(url.pathname)) {
+      await stat(resolve(root,'instrumental-solution/assets/documentos/catalogo-isolution.pdf'));
+      res.writeHead(302,{Location:'/instrumental-solution/assets/documentos/catalogo-isolution.pdf','Cache-Control':'no-store'});return res.end();
+    }
     const path = resolve(root, `.${decodeURIComponent(url.pathname)}`);
     if (!(path === root || path.startsWith(root + sep))) throw new Error('Invalid path');
     let file = path;

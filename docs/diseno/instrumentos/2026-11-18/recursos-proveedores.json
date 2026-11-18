@@ -1,0 +1,1875 @@
+{
+  "date": "2026-11-18",
+  "scope": "Líneas y series comerciales para consulta. No inventario de SKU, stock, exclusividad ni representación oficial. Parámetros de cada configuración requieren selección técnica.",
+  "resources": [
+    {
+      "slug": "trumen-lsvr",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/vibrating-rod-point-level-switch-suppliers.html",
+      "imageSource": "https://trumen.in/datasheet/LSVR_Data_Sheet_Trumen.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lsvr.png",
+      "dimensions": [
+        500,
+        1500
+      ],
+      "sha256": "fd5691f3683d836264f16f4194c484115132b7c514c9aa3f7eb573e2fe0aa351",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 771. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lsvr-fabricante.pdf",
+          "source": "https://trumen.in/datasheet/LSVR_Data_Sheet_Trumen.pdf",
+          "pages": 4,
+          "sha256": "08d64916d546646264bb06b295b77dcd0a8fdeb97e5b0a1b20888a7646c55f17",
+          "title": "LSVR · Datos técnicos"
+        },
+        {
+          "file": "trumen-lsvr-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-LSVR.pdf",
+          "pages": 21,
+          "sha256": "c1343629bdf57e7e33d3589df035cf73247d660e48462eb44c71e5dfced3e9a3",
+          "title": "LSVR · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lfv",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/vibrating-fork-point-level-switch-exporter-india.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2022/06/LFV-Data-Sheet-Trumen-.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lfv.png",
+      "dimensions": [
+        680,
+        1500
+      ],
+      "sha256": "a1bd6a3a02f19bcd213fdeacdc609f8232cdea56b2213b4bb0991a4b1e0c9ba9",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 199. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lfv-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2022/06/LFV-Data-Sheet-Trumen-.pdf",
+          "pages": 4,
+          "sha256": "f608fd0560f03018f28cf033606baf1bd135ac2ebc1ca6f7cf893d1ac8d127fb",
+          "title": "LFV · Datos técnicos"
+        },
+        {
+          "file": "trumen-lfv-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-LFV.pdf",
+          "pages": 27,
+          "sha256": "1056404ae773f3bba41a0c7d4fbb7de22973d03d38553546a7fb805b88c45a4d",
+          "title": "LFV · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lfv-11",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/capacitance-level-switch-manufacturer-india.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2019/04/lfv12-lfv11-technical-data-sheet.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lfv-11.png",
+      "dimensions": [
+        309,
+        709
+      ],
+      "sha256": "3383c28a5ff25cc3f7d0c547111e6ae3ab798ee5923df3b82662647b7ca0e923",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 44. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lfv-11-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/04/lfv12-lfv11-technical-data-sheet.pdf",
+          "pages": 2,
+          "sha256": "7940e7a87b89a8c3ead7881ee2ba7a4943f1a58774ab0e62194c7338357d4fc8",
+          "title": "LFV-11 · Datos técnicos"
+        },
+        {
+          "file": "trumen-lfv-11-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-LFV12-LFV11.pdf",
+          "pages": 13,
+          "sha256": "1edbb04889ec9f89141ae3945ec46f432baa8566112ac4f95944e50d286fde8a",
+          "title": "LFV-11 · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lfv-12",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/tuning-fork-point-level-switch.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2024/01/Trumen_LFV12_Data_Sheet.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lfv-12.png",
+      "dimensions": [
+        309,
+        709
+      ],
+      "sha256": "3383c28a5ff25cc3f7d0c547111e6ae3ab798ee5923df3b82662647b7ca0e923",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 44. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lfv-12-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2024/01/Trumen_LFV12_Data_Sheet.pdf",
+          "pages": 2,
+          "sha256": "7940e7a87b89a8c3ead7881ee2ba7a4943f1a58774ab0e62194c7338357d4fc8",
+          "title": "LFV-12 · Datos técnicos"
+        },
+        {
+          "file": "trumen-lfv-12-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-LFV12-LFV11.pdf",
+          "pages": 13,
+          "sha256": "1edbb04889ec9f89141ae3945ec46f432baa8566112ac4f95944e50d286fde8a",
+          "title": "LFV-12 · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lsy",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/admittance-point-level-switch-manufacturers.html",
+      "imageSource": "https://trumen.in/datasheet/LSY_Data_Sheet_Trumen.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lsy.png",
+      "dimensions": [
+        1000,
+        1500
+      ],
+      "sha256": "9389ebbac803f420af53381360dbf4628895d07d65788879d8137d097090da99",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 807. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lsy-fabricante.pdf",
+          "source": "https://trumen.in/datasheet/LSY_Data_Sheet_Trumen.pdf",
+          "pages": 4,
+          "sha256": "068f9608238751b58cd116aca0f2c73d2aadbad84a03ec56054bc932d8dd12c3",
+          "title": "LSY · Datos técnicos"
+        },
+        {
+          "file": "trumen-lsy-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-LSY.pdf",
+          "pages": 10,
+          "sha256": "5b593dee6e4d437daf0e148ef6c7d12da7d237e961b5722b8208b430da514b59",
+          "title": "LSY · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lmc",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/capacitnace-point-level-switch-manufacturers.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2022/06/LMC-Data-Sheet-Trumen-.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lmc.png",
+      "dimensions": [
+        450,
+        1500
+      ],
+      "sha256": "8b203f5ec2912becaf2e0da82c3e1fcc46fe9fc7bddff0816b27d66991a4f3cd",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 343. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lmc-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2022/06/LMC-Data-Sheet-Trumen-.pdf",
+          "pages": 4,
+          "sha256": "85191707ce437de8462f3127717d3df9e2c05df433eca8e1a8f0b3039d88e05a",
+          "title": "LMC · Datos técnicos"
+        },
+        {
+          "file": "trumen-lmc-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/04/lmc-instruction-manual_NEW.pdf",
+          "pages": 36,
+          "sha256": "e48a91738fb377850d9c1cfe609d00e7a1aa1e2c5b4b36d381f95391b1a11ab5",
+          "title": "LMC · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lws",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/conductivity-points-level-switch-manufacturers.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2024/01/Trumen_LWS_Data_Sheet.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lws.png",
+      "dimensions": [
+        168,
+        665
+      ],
+      "sha256": "03e9be010282a614f9ceabec29e89e6823d7a462ec559bf3ac46681f9a8ed239",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 302. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lws-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2024/01/Trumen_LWS_Data_Sheet.pdf",
+          "pages": 4,
+          "sha256": "62f54150ff420eee98c80953af5cfeea4e51bcfe9c045adfafb9e3906c87635d",
+          "title": "LWS · Datos técnicos"
+        },
+        {
+          "file": "trumen-lws-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-LWS.pdf",
+          "pages": 19,
+          "sha256": "e2f9629bd8e929c0dd20ac49611131d58b1194cd55479b7d90653776fa6f815e",
+          "title": "LWS · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lsr",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/rotating-paddle-point-level-switch-exporter.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2022/06/LSR-Data-Sheet-Trumen.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lsr.png",
+      "dimensions": [
+        960,
+        1280
+      ],
+      "sha256": "3d3e16211a8a909052cb84f0d8b8fb754b1658d0f15c6af000525761f35c1bb0",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 11. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lsr-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2022/06/LSR-Data-Sheet-Trumen.pdf",
+          "pages": 1,
+          "sha256": "97760bfa50ec8bad3447b6cd18f506f4989902232021b385549ec7868fa11b11",
+          "title": "LSR · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lmf-tm",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/top-mounted-magnetic-flot-level-switch.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2024/01/Trumen_LMF_TM_Data_Sheet.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lmf-tm.png",
+      "dimensions": [
+        149,
+        504
+      ],
+      "sha256": "df72926b31e80b36008ab1bb4754ece9f91dc762efd068f26be5f4968d725bcf",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 54. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lmf-tm-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2024/01/Trumen_LMF_TM_Data_Sheet.pdf",
+          "pages": 1,
+          "sha256": "61c0f5d6497c5f46cfb53d9850d9b2c2a54bdeede6b7d0a41bf6a2ab7135c281",
+          "title": "LMF-TM · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lmfs",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/fly-ash-level-switch-water-level-switch-for-dairy.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2019/04/lmfs-technicaldatasheet_new.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lmfs.png",
+      "dimensions": [
+        1500,
+        682
+      ],
+      "sha256": "5f849b28fc0aadd326b35989b5912c45f860398e941b1ee70e11a09f39e2c5bb",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 11. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lmfs-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/04/lmfs-technicaldatasheet_new.pdf",
+          "pages": 1,
+          "sha256": "c38db81cf1e49ea7f0bb800f2b032f800f0c342ab1d8b27c36cafc0eb0542330",
+          "title": "LMFS · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-lmc-14",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/compact-capacitance-level-switch-lmc-14.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2026/06/LMC-14.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lmc-14.png",
+      "dimensions": [
+        722,
+        368
+      ],
+      "sha256": "75c879363569df71de321e8b88aa6ebe631bd06ae2c55d0aaeea6b9a378c19d5",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-lmc-14-agua.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2026/06/Trumen-LMC-14-W-PS-Data-Sheet.pdf",
+          "pages": 2,
+          "sha256": "ddea96c9df608b5447ad47f8bb133649d62af5ded438e82de290030a8a750181",
+          "title": "LMC-14-W · Datos técnicos para agua"
+        },
+        {
+          "file": "trumen-lmc-14-aceite.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2026/06/Trumen-LMC-14-O-PS-Data-Sheet.pdf",
+          "pages": 2,
+          "sha256": "2dac9a893320d4554e61d168d39c96c8be64c783f8e720972c811f6f6dfd87ca",
+          "title": "LMC-14-O · Datos técnicos para aceite"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tlc",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/capacitance-level-transmitter-manufacturers-india.html",
+      "imageSource": "https://trumen.in/datasheet/TLC_Data_Sheet_Trumen.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tlc.png",
+      "dimensions": [
+        536,
+        1500
+      ],
+      "sha256": "5fce13af801356750b290b3953f7a7ce96ab110db4ae21f6a14bf2eba617aaa3",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 256. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tlc-fabricante.pdf",
+          "source": "https://trumen.in/datasheet/TLC_Data_Sheet_Trumen.pdf",
+          "pages": 4,
+          "sha256": "2207ed61392483d32568ef4d6394fd541044e3870ff171afdde72f8a959676fa",
+          "title": "TLC · Datos técnicos"
+        },
+        {
+          "file": "trumen-tlc-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/04/tlc_instruction_manual_new.pdf",
+          "pages": 12,
+          "sha256": "a135e8b1bf9fba7d4d1f3cd644e2a9a82341146a252ab8ec2f1c2f56e93a47d7",
+          "title": "TLC · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tlh",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/hydrostatic-level-transmitter-manufacturers-india.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2019/01/TLH-Data-sheet-Trumen-R2.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tlh.png",
+      "dimensions": [
+        1500,
+        1000
+      ],
+      "sha256": "2a3594a9bb385d454c683f532ff1ffe22bc1b5446b73e8dc879a717e23551c99",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 15. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tlh-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/TLH-Data-sheet-Trumen-R2.pdf",
+          "pages": 1,
+          "sha256": "7aea42f79cae4d16a5441bdd30aa9f9048ce2e822ec6e6949c64fea60955fffb",
+          "title": "TLH · Datos técnicos"
+        },
+        {
+          "file": "trumen-tlh-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-TLH.pdf",
+          "pages": 9,
+          "sha256": "3f619d04ccc3a1b8d575216b8ab419a3ae2bbf96feb0da9f075490554a3dc450",
+          "title": "TLH · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tlr",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/radar-level-transmitter-manufacturers.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2019/01/TLR-Data-Sheet-Trumen.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tlr.png",
+      "dimensions": [
+        415,
+        795
+      ],
+      "sha256": "723fa50328482d32d38b2341309c16fa55bb854ff9f09193714db58ec1268c31",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 704. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tlr-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/TLR-Data-Sheet-Trumen.pdf",
+          "pages": 54,
+          "sha256": "5ebc27933b13264da5c80e4df657814750567f3829b186a8609685dfe73d0dbe",
+          "title": "TLR · Datos técnicos"
+        },
+        {
+          "file": "trumen-tlr-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-TLR.pdf",
+          "pages": 54,
+          "sha256": "1bf0292daf0044d49b1410b217b132890c37c6b142b229022eb485176864b077",
+          "title": "TLR · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tlu",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/ultrasonic-level-transmitter-manufacturers.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2024/01/Trumen_TLU_Data_Sheet.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tlu.png",
+      "dimensions": [
+        1125,
+        1500
+      ],
+      "sha256": "a85defc437c239ab17de9b024f4685c9936e6523333f8b53abd18095a532a007",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 9. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tlu-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2024/01/Trumen_TLU_Data_Sheet.pdf",
+          "pages": 2,
+          "sha256": "14ff2cc3458c452aeaf72e9f075febde388353cbe0277ab0a000704b0de2c1e0",
+          "title": "TLU · Datos técnicos"
+        },
+        {
+          "file": "trumen-tlu-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/03/Instruction-Manual-TLU-New.pdf",
+          "pages": 46,
+          "sha256": "b9a563ba6abf0aecfa701a899e20d84bbf6a61fffdd16861ed047fe45acccd75",
+          "title": "TLU · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tlcf",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/capacitance-level-transmitter-suppliers-india.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2019/04/tlcf-tech_datasheet_NEW.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tlcf.png",
+      "dimensions": [
+        170,
+        476
+      ],
+      "sha256": "9f6d9f5b8da737e1dc7b72893914ee24ea11e4681671c3ee18654908d74a8d77",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 12. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tlcf-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/04/tlcf-tech_datasheet_NEW.pdf",
+          "pages": 1,
+          "sha256": "cbd8c12da6675914074248c8e63a2d2302805a416b24fe9bf7baab11d6f2af54",
+          "title": "TLCF · Datos técnicos"
+        },
+        {
+          "file": "trumen-tlcf-manual.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/Instruction-Manual-TLCF.pdf",
+          "pages": 11,
+          "sha256": "de46dc90a8c6fc09b63fd0b3f5c15c6238905d011683be2a911aa366c5e7e37c",
+          "title": "TLCF · Manual"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tlr31-tlrg",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/radar-level-transmitter-manufacturer-india.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2019/01/TLRG-Data-Sheet-Trumen.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tlr31-tlrg.png",
+      "dimensions": [
+        394,
+        734
+      ],
+      "sha256": "686d2b7c967ff3d7772c36034543b90dfedd1936337481f8ae5650a8aa45e32d",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 326. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tlr31-tlrg-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/01/TLRG-Data-Sheet-Trumen.pdf",
+          "pages": 33,
+          "sha256": "2ca3f9712f3805e7355dc8c54424910297d84c5ca4fd90196d3351ebf86cdb06",
+          "title": "TLR31 / TLRG · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tfp40c",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/ceramic-pressure-transmitter-manufacturer.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2022/06/TFP-40C_DS.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tfp40c.png",
+      "dimensions": [
+        400,
+        400
+      ],
+      "sha256": "74642aef4d7dd0cd7ce37d072f1b5eba8ad3892d0289d8d56fce4d9d9b9ad55e",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 27. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tfp40c-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2022/06/TFP-40C_DS.pdf",
+          "pages": 3,
+          "sha256": "8ac8c2b7146ded75c591e47519a1ecfcd6854a4eb1f473c8c38bbcac4c39145e",
+          "title": "TFP40C · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tfp40s",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/piezoresistive-pressure-transmitter-suppliers.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2022/06/TFP-40S-Data-Sheet-Trumen.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tfp40s.png",
+      "dimensions": [
+        430,
+        375
+      ],
+      "sha256": "d1f68fba42e620a1dad7e4f01eb14c34041c6391ebef17b6198b9660f7927069",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 27. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tfp40s-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2022/06/TFP-40S-Data-Sheet-Trumen.pdf",
+          "pages": 3,
+          "sha256": "2dc2129bf9e184500121baaac63fff021de7935dc2e27705f592a515efe821d1",
+          "title": "TFP40S · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tfp310",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/diaphragm-pressure-transmitter.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2019/04/tfp310_tech_datasheet.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tfp310.png",
+      "dimensions": [
+        439,
+        439
+      ],
+      "sha256": "58194584c0ff21a8a53ee1f483c56a9122055e21a20c0e5fa369e471712393ad",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 25. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tfp310-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2019/04/tfp310_tech_datasheet.pdf",
+          "pages": 3,
+          "sha256": "6efdc5bf6cc71bdae2121ef4ed2524c597cba4c962c851e9602943182839414b",
+          "title": "TFP310 · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tfps70",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/smart-pressure-transmitter.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2025/01/TFPS_70_DATA_SHEET.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tfps70.png",
+      "dimensions": [
+        781,
+        657
+      ],
+      "sha256": "7ab441cd4dea0ea96821f47b165e7c8698122cb8b7fdf40e73e7ec9e66421380",
+      "processing": "Recorte del área de fotografía tal como se presenta en la página oficial del PDF; fondo y máscaras renderizados, sin alterar el equipo.",
+      "documents": [
+        {
+          "file": "trumen-tfps70-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2025/01/TFPS_70_DATA_SHEET.pdf",
+          "pages": 4,
+          "sha256": "56c8a3f31e049f3b818266e4ac01a8aa65f0f494d7cfe640dc8fc499c1f8a90e",
+          "title": "TFPS 70 · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tfdp70",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/smart-differential-pressure-transmitter.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2025/06/TFDP_70_data_sheet.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tfdp70.png",
+      "dimensions": [
+        620,
+        812
+      ],
+      "sha256": "06464842a426847d7f600db189ea21c5b48619434a6c7992042866c903b6b1be",
+      "processing": "Fotografía completa del TFDP 70 tal como se imprime en la ficha oficial: página 1, rectángulo PDF [70,112,225,315], renderizado a 4x. Se excluyen textos y otros elementos de la página; no se altera el instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tfdp70-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2025/06/TFDP_70_data_sheet.pdf",
+          "pages": 4,
+          "sha256": "78e66b31c908e9e5ee8985e4f7136b43348f6ac35c7de69abff33c63d10e5539",
+          "title": "TFDP 70 · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tfp40t",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/piezoresistive-pressure-transmitter-tfp40t.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2025/07/Trumen_TFP_40T_Data-Sheet.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tfp40t.png",
+      "dimensions": [
+        480,
+        640
+      ],
+      "sha256": "6ae50f0ccb8e1ba708b4c4b63e76181b435cda19e21fbc8c0c9fda1f09248ccc",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 28. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tfp40t-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2025/07/Trumen_TFP_40T_Data-Sheet.pdf",
+          "pages": 3,
+          "sha256": "c1808ad4aed769f55dd48c594fb88d82a2c8e7a914fda665287f18075613b8d3",
+          "title": "TFP40T · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "trumen-tfp300",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/flush-diaphragm-pressure-transmitter-tfp300.html",
+      "imageSource": "https://trumen.in/wp-content/uploads/2025/07/Trumen_Pressure_Tramitter_TFP_300.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-tfp300.png",
+      "dimensions": [
+        1318,
+        1500
+      ],
+      "sha256": "f255be29cfd0874a266d8ec5793bba1285254538de34613d5059f411cdef5938",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 27. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "trumen-tfp300-fabricante.pdf",
+          "source": "https://trumen.in/wp-content/uploads/2025/07/Trumen_Pressure_Tramitter_TFP_300.pdf",
+          "pages": 3,
+          "sha256": "b9decb361fe088f2c94fc43430db68732f8ec41adbf9468bb1e11dd368110d37",
+          "title": "TFP300 · Datos técnicos"
+        }
+      ]
+    },
+    {
+      "slug": "sino-inst-electromagneticos",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/magnetic-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2019/10/SI-3118-Electromagnetic-Digital-Water-Flow-meter.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-electromagneticos.png",
+      "dimensions": [
+        500,
+        500
+      ],
+      "sha256": "961918f88118ebe9e1a7981eab90afc3903a69a07df1636bb89abef999e9860d",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-turbina",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/turbine-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2019/10/SI-3202-Liquid-Turbine-Flow-Meter.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-turbina.png",
+      "dimensions": [
+        500,
+        500
+      ],
+      "sha256": "76746df5371e7da714d8bcc4180d1c3496c4ea115ddbde53469b4bc1863dd05b",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-rueda-paletas",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/paddle-wheel-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2026/06/KF11-Impeller-Flow-Meter.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-rueda-paletas.png",
+      "dimensions": [
+        489,
+        399
+      ],
+      "sha256": "875bb9b1068390225b7febfda2d2a8ea2974808b86af9f069a6945d775b0074a",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-vortex",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/vortex-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2019/10/SI-3303-Steam-Vortex-Flow-Meter.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-vortex.png",
+      "dimensions": [
+        500,
+        500
+      ],
+      "sha256": "5ba49eed7060c0e705c9e652f62992ad6869e45126a65542a9203e1c60330652",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-ultrasonico-clamp-on",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/ultrasonic-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2019/10/SI-3403-Clamp-on-Ultrasonic-Flow-Meter-1.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-ultrasonico-clamp-on.png",
+      "dimensions": [
+        500,
+        500
+      ],
+      "sha256": "44a04fd8dcab2cfc04815244ec0d189d9e50b51652ab1bced21d703ac18dc0c8",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-ultrasonico-portatil",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/ultrasonic-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2019/10/SI-3401-Handheld-Ultrasonic-Flow-Meter-4.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-ultrasonico-portatil.png",
+      "dimensions": [
+        500,
+        500
+      ],
+      "sha256": "28713cf9392c44c8056517544711472da7f205f083963b716ff3233740cbc772",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-ultrasonico-doppler",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/ultrasonic-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2024/05/Clamp-on-Doppler-Flow-Meter.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-ultrasonico-doppler.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "eb595b134613c8773418451114653c44151ce5d72756d69e80e454386eae53f0",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-termicos",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/thermal-gas-mass-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2019/10/SI-3503-Gas-Mass-Flow-Meter-3.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-termicos.png",
+      "dimensions": [
+        500,
+        500
+      ],
+      "sha256": "cac679e1427bf4b72eb870a3a0de4e6e063558298e4003f8558c7239de6d580c",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-desplazamiento-positivo",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/positive-displacement-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2019/10/SI-3601-Positive-Displacement-Oval-Gear-Fuel-Flow-Meter-1.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-desplazamiento-positivo.png",
+      "dimensions": [
+        500,
+        500
+      ],
+      "sha256": "46221fccfdca97e3c1c3f9b1922684795001cc70b5a9c217c29e4497f0926a5a",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-presion-diferencial-caudal",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/differential-pressure-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2019/10/SI-3704-Venturi-Tube-Flow-Meter-e1752491651225.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-presion-diferencial-caudal.png",
+      "dimensions": [
+        500,
+        410
+      ],
+      "sha256": "a5a699831d7470d60d15ec5dca4d7ccb08e38825065e9a1281966d7934047f35",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-multifasico",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/multiphase-flow-meter-for-oil-and-gas-2/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2026/05/Multiphase-Flow-Meter.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-multifasico.png",
+      "dimensions": [
+        1000,
+        1000
+      ],
+      "sha256": "7c4b807e0f0d71ff26ec5d813f620bf3c21afabdf47e65437ebf00c87d7615aa",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-canal-abierto",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/open-channel-flow-meters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2026/06/Ultrasonic-Open-Channel-Flow-Meter.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-canal-abierto.png",
+      "dimensions": [
+        800,
+        800
+      ],
+      "sha256": "cdec60521b9c01f96254030774bd2089bebd7e873855a28c9c8ac1e2b38c6dd4",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-switches-caudal",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-flow-switches/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2026/04/SI-600-Thermal-Dispersion-Flow-Switch.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-switches-caudal.png",
+      "dimensions": [
+        1199,
+        1199
+      ],
+      "sha256": "a99f04da9dcac43065efe2d6703f00364c564c7a51ee015bc55cd4df941069cd",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-radar-80-ghz",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Radar-Level-Transmitter-80GHz.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-radar-80-ghz.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "48641357a998cdcbab2a7bd3867a1388dc1c586fbb84f1c5bd07f65f02641470",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-radar-26-ghz",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Non-Contact-26-GHz-Radar-Level-Meters.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-radar-26-ghz.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "c99de67b48b47b9b3f62cf66d22554ee630f3332bdc52a3eea15519397b5d8ba",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-radar-guiado",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/guided-wave-radar-level-transmitters.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-radar-guiado.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "446826d4db785a2e70514d02bebdb56403c975af18bfc6df1d68a14e2a30e9af",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-radar-agua",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Radar-Water-Level-Sensor.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-radar-agua.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "3647153dbdae5116a4e8964098dfb64e4834a33312b79c3cdea1ca0f8404e552",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-radar-3d-silos",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2026/10/3d-radar-level-scanner-square.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-radar-3d-silos.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "e42218f0b24bc1a94d34c5086f3c6bb64ba96076c43a5e57f78e98d04c6b865f",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-nivel-ultrasonico",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/General-Purpose-Ultrasonic-Level-Meter-for-Liquids.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-nivel-ultrasonico.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "76a4a9e44ff699eb9255f5f79fc4e94f003b67c8a0c8e42c53d15c2053a7e8c8",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-nivel-hidrostatico",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Submersible-Level-Transmitter-0-10m-50m-200m.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-nivel-hidrostatico.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "86bc220d76d2bd52cca08ae35d7ba00cdb33b5318480929a435c73edabfd1d2c",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-nivel-magnetostrictivo",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Magnetostrictive-Level-Transmitters.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-nivel-magnetostrictivo.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "5275e76fae4047a3685f3037f95892adceb9bd91bd9573ce75e27c905e90083a",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-nivel-flotador",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Float-Level-Transmitter-.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-nivel-flotador.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "a73fbe7f6669ff0d2e963c2be2071a3fa032873178aed5691671c87d3b1ce18a",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-nivel-capacitivo",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Capacitive-Level-Sensors.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-nivel-capacitivo.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "aa2c9bd9b770de317a8996b0c2db545e162b68f8d18fef1c898209d3cb7a6d3f",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-switches-horquilla",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2024/08/Vibration-Tuning-Fork-Level-Switches.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-switches-horquilla.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "382f21ecee5143f3486013880af702838416f284e254a93a595d6329434e8e69",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-switches-paleta",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2024/12/Rotary-Paddle-Level-Switch-Controller-1024x1024.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-switches-paleta.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "e627f785745f6af11788052bca8c2b4ba9be1c71ae16f76d4b8c355d7fd8e7ea",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-switches-admitancia",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2025/10/Rf-admittance-level-switch.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-switches-admitancia.png",
+      "dimensions": [
+        800,
+        800
+      ],
+      "sha256": "dedd6764a789d24be66b5635318a5c0083fbde1b8c2266711431e0bda67830d0",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-switches-capacitivos",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2025/10/Electrostatic-Capacitive-Level-Switches.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-switches-capacitivos.png",
+      "dimensions": [
+        700,
+        700
+      ],
+      "sha256": "298f7c7c5c5174e7f4804c070152f00de7d0d065ba4c91659454d044899e774e",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-switches-conductivos",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-level-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2025/12/Conductive-Level-Switch-1024x1024.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-switches-conductivos.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "64fe81e178a916913500b09e5fc2f9558d1ae639b1578519f7a162389f8f4416",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-presion-industrial",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/pressure-sensors/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/01/SI-2088-Industrial-Pressure-Transmitter.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-presion-industrial.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "4b0c1b52342db391bc071dfb2871e5b70bcd465c31c02b68af436460370cd583",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-presion-diferencial",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/pressure-sensors/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/11/SI-804DP-Small-Differential-Pressure-Sensor.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-presion-diferencial.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "17bfa4bc5c7b945b3eeae5893cd68673737a471a5871552c6478e08411d51b21",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-presion-absoluta",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/pressure-sensors/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/02/SI-3151-Capacitive-Absolute-Pressure-Transmitter.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-presion-absoluta.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "cb0b2758142f29cdb9e758e8f60e56ee97c490aa403700f876ed4dbd130d5bef",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-termocuplas",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-temperature-sensors-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/11/Industrial-Assembled-Thermocouples.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-termocuplas.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "b6bd2b91800098cc5c1d8eca02ae6d6a67544d941d5e872b257dbc51809290da",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-rtd",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-temperature-sensors-transmitters/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/RTD-PT100-3-wire.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-rtd.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "08ee9b3a046bf762ebc07355566c24b8765fe8c58e004ed4de440b1c2b4c1347",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-densidad",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-densitometers/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2025/12/Tuning-Fork-Density-Meter-316L-1024x1024.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-densidad.png",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "sha256": "7c51879e1c01096800de9bb18b6962416c8e905a7b6967c26dc833de03b78440",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-concentracion",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-densitometers/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2025/12/Liquid-Concentration-Meter-Optical-Principle-940x1024.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-concentracion.png",
+      "dimensions": [
+        940,
+        1024
+      ],
+      "sha256": "b0e680c7c068fc7e685479e90de1dd2dfaa8a9b95f5ca7d686b40b3265a8197a",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-viscosidad",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/industrial-densitometers/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2025/12/Inline-Viscosity-Meter-897x1024.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-viscosidad.png",
+      "dimensions": [
+        897,
+        1024
+      ],
+      "sha256": "9d755d97557b3dcbdf44cf3e8d55aefb1c1301a93f1ecac410faf4560fc994c1",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-torque-dinamico",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/torque-sensors-torque-transducers/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2024/10/101-102-Series-Dynamic-Torque-Sensor.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-torque-dinamico.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "a91230dc7c710d28a4bf453b328b0ff12f3cad42c5b97864926c8dc6f199eda6",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-torque-reaccion",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/torque-sensors-torque-transducers/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2024/11/CL1-12-Shaft-to-Shaft-Reaction-Torque-Sensor.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-torque-reaccion.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "fbb55ba65671052ea9647dcce48c00e6ed5ebc52d9a69c8d284fb071ffe7e0a4",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "endress-promass-f300",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/flow-measurement-product-overview/coriolis-flowmeter-promass-f300-8f3b",
+      "imageSource": "https://bdih-download.endress.com/file/465d5fc36a4715d82484ec6a161a5d7d/TI01221DEN_1425-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-promass-f300.png",
+      "dimensions": [
+        975,
+        709
+      ],
+      "sha256": "9e0683ebe63942447b4b161dee8c00ced9ff00d21e075895d98be820c01f074b",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 18. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-promass-f300-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/465d5fc36a4715d82484ec6a161a5d7d/TI01221DEN_1425-00.pdf",
+          "pages": 138,
+          "sha256": "aa0993f4b358d3559807e70fdc3f9d690adbc84cda825c89f26bb4dd0e1ee76f",
+          "title": "Proline Promass F 300 · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-prowirl-f200",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/flow-measurement-product-overview/vortex-flowmeter-prowirl-f200-7f2c",
+      "imageSource": "https://bdih-download.endress.com/file/b60b87ca3730b52a7848766084e83d4f/TI01333DEN_0624-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-prowirl-f200.png",
+      "dimensions": [
+        1476,
+        1054
+      ],
+      "sha256": "0b874d76c79176444143c30d31c4a5485486acb46d7e55fc60d129ced19c6f06",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 18. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-prowirl-f200-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/b60b87ca3730b52a7848766084e83d4f/TI01333DEN_0624-00.pdf",
+          "pages": 106,
+          "sha256": "f6365daaaa790c716d2a4a22add7c2ee90312d0dd05ec9a721c35bf53867bd25",
+          "title": "Proline Prowirl F 200 · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-t-mass-i300",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/flow-measurement-product-overview/thermal-mass-flowmeter-t-mass-i300-6i3b",
+      "imageSource": "https://bdih-download.endress.com/files/DLA/005056A500261EEE89ABC76F4FB4E796/TI01501DEN_0323-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-t-mass-i300.png",
+      "dimensions": [
+        385,
+        804
+      ],
+      "sha256": "f699661d89577012fbe32baa35d6d2a7e2da1302533ff42fb743ad0cc9f8d3e4",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 17. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-t-mass-i300-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/files/DLA/005056A500261EEE89ABC76F4FB4E796/TI01501DEN_0323-00.pdf",
+          "pages": 84,
+          "sha256": "fc3f16e1b0c30c4e3a97218945a272a3c2b8ecffc2e805077defcd7396469ff7",
+          "title": "Proline t-mass I 300 · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-prosonic-p500",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/flow-measurement-product-overview/ultrasonic-flow-meter-prosonic-flow-p500-9p5b",
+      "imageSource": "https://bdih-download.endress.com/file/005056A5E3831EEEB083C2F76CB03970/TI01504DEN_0224-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-prosonic-p500.png",
+      "dimensions": [
+        1500,
+        921
+      ],
+      "sha256": "33db68a3238aab55d31eea0f24a26ccd0b69ac331edb935080c2356d3ba74412",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 17. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-prosonic-p500-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/005056A5E3831EEEB083C2F76CB03970/TI01504DEN_0224-00.pdf",
+          "pages": 88,
+          "sha256": "dd29c7a1adb74ca90225c0f4b4bf6d53a0a043dff943b451eb1a77acc80470f7",
+          "title": "Proline Prosonic Flow P 500 · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-micropilot-fmr60b",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/level-measurement/Radar-Micropilot-FMR60B",
+      "imageSource": "https://bdih-download.endress.com/file/d29918fbdf0177256c8a6edba8cb6dbf/TI01693FEN_0325-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-micropilot-fmr60b.png",
+      "dimensions": [
+        534,
+        1500
+      ],
+      "sha256": "ae7360c7bc0cc90bf86dd2c8a36adc914d2392f7fce7c00518c32da9df5fd7b3",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 17. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-micropilot-fmr60b-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/d29918fbdf0177256c8a6edba8cb6dbf/TI01693FEN_0325-00.pdf",
+          "pages": 72,
+          "sha256": "33ef6af2ae6d70e285380cb867b858b9280cbcdfb3258f79ee54be57df9d4a8c",
+          "title": "Micropilot FMR60B · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-levelflex-fmp51",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/level-measurement/Guided-Radar-Levelflex-FMP51",
+      "imageSource": "https://bdih-download.endress.com/files/DLA/005056A500261EEF9F83DF7CCCBED701/TI01001FEN_3024-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-levelflex-fmp51.png",
+      "dimensions": [
+        536,
+        1500
+      ],
+      "sha256": "fbd2746a27cfbefe4490d83abdd196c2397bbbcbb0d67a65ff1c3eaf10b805f8",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 17. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-levelflex-fmp51-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/files/DLA/005056A500261EEF9F83DF7CCCBED701/TI01001FEN_3024-00.pdf",
+          "pages": 112,
+          "sha256": "cd0aeab06220bf13bd1643e182aa1d5c655639d70955f9d24d61b84e15d552d0",
+          "title": "Levelflex FMP51 · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-cerabar-pmp51b",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b",
+      "imageSource": "https://bdih-download.endress.com/files/DLA/005056A500261EDEB5E62F816DFB4E17/KA01470PEN_0524-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-cerabar-pmp51b.png",
+      "dimensions": [
+        295,
+        259
+      ],
+      "sha256": "8866f8e10a117c285f761cd2e0f7b9a234a197f386c38221ea84b0191afd5739",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 20. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-cerabar-pmp51b-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/files/DLA/005056A500261EDEB5E62F816DFB4E17/KA01470PEN_0524-00.pdf",
+          "pages": 20,
+          "sha256": "e94f3dcee32885a43533a5d4ee9fa4eafd372c4d66f7054c16e389cac22214e7",
+          "title": "Cerabar PMP51B · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-deltabar-pmd75b",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-deltabar-pmd75b",
+      "imageSource": "https://bdih-download.endress.com/file/facbd0e0839482fba096fb5d3d53ee89/TI01511PEN_0724-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-deltabar-pmd75b.png",
+      "dimensions": [
+        339,
+        485
+      ],
+      "sha256": "fa9eced469c84d955bff4f18662f1d6f64dd260feed70ce9d34699216e4d2b98",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 19. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-deltabar-pmd75b-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/facbd0e0839482fba096fb5d3d53ee89/TI01511PEN_0724-00.pdf",
+          "pages": 64,
+          "sha256": "e7fcb129685df11a375150526673dc1f4a821afa4cbca34f421fa7e64d0221ec",
+          "title": "Deltabar PMD75B · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-memosens-cps11e",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/liquid-analysis-product-overview/digital-ph-sensor-cps11e",
+      "imageSource": "https://bdih-download.endress.com/file/b2c3ada586c43f9a63a2093961f7a81e/TI01493CEN_0325-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-memosens-cps11e.png",
+      "dimensions": [
+        441,
+        1500
+      ],
+      "sha256": "205ec7ebd413fa4cdd6a8d8aeae2962bb9f0e13992ae976b934f87bd8daa727f",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 16. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-memosens-cps11e-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/b2c3ada586c43f9a63a2093961f7a81e/TI01493CEN_0325-00.pdf",
+          "pages": 12,
+          "sha256": "1d7eb0e75adee98107a82780374b8dbe5280f20901e3b3302a31f11af6cbb164",
+          "title": "Memosens CPS11E · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-memosens-cls82e",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/liquid-analysis-product-overview/digital-conductivity-sensor-cls82e",
+      "imageSource": "https://bdih-download.endress.com/file/06db80ae2260f4381ec05c5656d08d5c/TI01529CEN_0324-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-memosens-cls82e.png",
+      "dimensions": [
+        498,
+        1500
+      ],
+      "sha256": "f0c5ec139cb20d0723411e2cf830dec0122a860b40c4af7747f16aca224a8415",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 15. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-memosens-cls82e-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/06db80ae2260f4381ec05c5656d08d5c/TI01529CEN_0324-00.pdf",
+          "pages": 16,
+          "sha256": "7965dd1a4c167a0807e9e221b0bb0923d900a434d66b646d8127e27f64e6aa36",
+          "title": "Memosens CLS82E · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-oxymax-cos61d",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/liquid-analysis-product-overview/digital-oxygen-sensor-cos61d",
+      "imageSource": "https://bdih-download.endress.com/file/c125c1d637c86f766de3018355759469/TI00387CEN_1621-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-oxymax-cos61d.png",
+      "dimensions": [
+        523,
+        1500
+      ],
+      "sha256": "cfdd6836ffe5876baa3a7f1052b0510115e607e04225bb70e3a7b42607925fea",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 20. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-oxymax-cos61d-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/c125c1d637c86f766de3018355759469/TI00387CEN_1621-00.pdf",
+          "pages": 16,
+          "sha256": "463fb24bd360f4e81050da71838bfd8f13f6eddd3c47b553af2009925569e837",
+          "title": "Oxymax COS61D · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-turbimax-cus52d",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/liquid-analysis-product-overview/digital-turbidity-sensor-cus52d",
+      "imageSource": "https://bdih-download.endress.com/file/21e6bbb23c930de7d67fa7858663ddeb/TI01136CEN_0825-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-turbimax-cus52d.png",
+      "dimensions": [
+        413,
+        1397
+      ],
+      "sha256": "f38abca8ac291268d328a80ac05fa9f54f0cea743bd902c24ae935b647054a40",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 16. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-turbimax-cus52d-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/21e6bbb23c930de7d67fa7858663ddeb/TI01136CEN_0825-00.pdf",
+          "pages": 24,
+          "sha256": "c8a48d2f36f5e764d07581d94999b355214680862ec712281be19bc2e5cb642b",
+          "title": "Turbimax CUS52D · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "endress-memosens-ccs51e",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/liquid-analysis-product-overview/digital-free-chlorine-sensor-ccs51e",
+      "imageSource": "https://bdih-download.endress.com/file/d88fcad22d77af5180314a53854802c4/TI01768CEN_0226-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/endress-memosens-ccs51e.png",
+      "dimensions": [
+        266,
+        1500
+      ],
+      "sha256": "fea5233b060d890944881c2aa6a3b9af8f0479db1dc3aff6a86e7a68ce733b5d",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 16. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "endress-memosens-ccs51e-fabricante.pdf",
+          "source": "https://bdih-download.endress.com/file/d88fcad22d77af5180314a53854802c4/TI01768CEN_0226-00.pdf",
+          "pages": 12,
+          "sha256": "366dba09b0582c7d873b966b1f96dbab27b1fc80627323c3577d7ed512779145",
+          "title": "Memosens CCS51E · Documento técnico"
+        }
+      ]
+    },
+    {
+      "slug": "siemens-sitrans-fm",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/sitrans/process-instrumentation-brochures/",
+      "imageSource": "https://assets.ctfassets.net/17si5cpawjzf/6loF4ItOUqzDQSdCjHTimC/667469cd2ab2c28ec63a28065934643a/PIBR-BI10164-0521-magmeter-sitrans-fm-selection-guide-USA.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-sitrans-fm.png",
+      "dimensions": [
+        377,
+        238
+      ],
+      "sha256": "e7a35b12ace0291be1ef28ca89876fbd925821236774ac02aaf6cb7059975267",
+      "processing": "Imagen del producto extraída de la página 2 del documento oficial, xref 75.",
+      "documents": [
+        {
+          "file": "siemens-sitrans-fm-fabricante.pdf",
+          "source": "https://assets.ctfassets.net/17si5cpawjzf/6loF4ItOUqzDQSdCjHTimC/667469cd2ab2c28ec63a28065934643a/PIBR-BI10164-0521-magmeter-sitrans-fm-selection-guide-USA.pdf",
+          "pages": 46,
+          "sha256": "9aeb6b7ac604d829e9864cb41d84808d36587d8908d8527e7f7c40f43e68a302",
+          "title": "SITRANS FM · Información de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "siemens-sitrans-fc",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/sitrans/process-instrumentation-brochures/",
+      "imageSource": "https://assets.ctfassets.net/17si5cpawjzf/4I8FZfGvd10qhE4PggZuuZ/83aa8b1972eb92874a6a4225e98f6084/PIBR-B10252-1223-digital-coriolis.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-sitrans-fc.png",
+      "dimensions": [
+        818,
+        593
+      ],
+      "sha256": "4038f84e201767dd81847a068ad20d3d9189d85874512572f7864b4e506495f6",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 25. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "siemens-sitrans-fc-fabricante.pdf",
+          "source": "https://assets.ctfassets.net/17si5cpawjzf/4I8FZfGvd10qhE4PggZuuZ/83aa8b1972eb92874a6a4225e98f6084/PIBR-B10252-1223-digital-coriolis.pdf",
+          "pages": 10,
+          "sha256": "43adfd859b2a8fa8f280b9621de152478979cd84b7e4f951864a558560499745",
+          "title": "SITRANS FC · Información de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "siemens-sitrans-fs230",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/sitrans/process-instrumentation-brochures/",
+      "imageSource": "https://assets.ctfassets.net/17si5cpawjzf/39O5Qdysrptc4WtQLkY8Uj/2a3f621ecd579cff5b708aa597e47269/PIBR-00040-0322-FS230-Oil.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-sitrans-fs230.png",
+      "dimensions": [
+        968,
+        870
+      ],
+      "sha256": "bc1272df71ecca341c3b6921d98af6da646b7798b8e5d71f691964db04a5419c",
+      "processing": "Imagen del producto extraída de la página 2 del documento oficial, xref 9.",
+      "documents": [
+        {
+          "file": "siemens-sitrans-fs230-fabricante.pdf",
+          "source": "https://assets.ctfassets.net/17si5cpawjzf/39O5Qdysrptc4WtQLkY8Uj/2a3f621ecd579cff5b708aa597e47269/PIBR-00040-0322-FS230-Oil.pdf",
+          "pages": 4,
+          "sha256": "111dcbe5fefa6347780f5bdfe20644b2cbcefb5f67d14c7b0f7b2c7ebc9ecdc2",
+          "title": "SITRANS FS230 · Información de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "siemens-sitrans-fx330",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/sitrans/process-instrumentation-brochures/",
+      "imageSource": "https://assets.ctfassets.net/17si5cpawjzf/7wTJpCPGe1FtlLPi9YEaaw/b36b0f7d412251910044a6966233c487/PIBR-B10111-0322-vortex-US.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-sitrans-fx330.png",
+      "dimensions": [
+        302,
+        545
+      ],
+      "sha256": "6fd6f22fe8323925ba31e9c095fc3f5624907e5898dda66c457609c7b8a7aaca",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 122. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "siemens-sitrans-fx330-fabricante.pdf",
+          "source": "https://assets.ctfassets.net/17si5cpawjzf/7wTJpCPGe1FtlLPi9YEaaw/b36b0f7d412251910044a6966233c487/PIBR-B10111-0322-vortex-US.pdf",
+          "pages": 6,
+          "sha256": "76b372e9035424188c95a7f2a9fb8191797b833b15ca6c140680d33fe7025083",
+          "title": "SITRANS FX330 · Información de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "siemens-unified-basic",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/simatic-hmi/wincc-unified-hardware/",
+      "imageSource": "https://images.sw.cdn.siemens.com/siemens-disw-assets/public/1gQLrT0LZ8yVbMf1tDjXvo/en-US/4a38eff6-cdd6-4aeb-a18f-ef77a2ddbff8-SIMATIC-HMI-Unified-Basic-Panel-1280x720.PNG?auto=format%2Ccompress&w=1280&h=720&fit=crop&crop=faces%2Cedges&q=60",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-unified-basic.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "65e28855e139e8b6f43f4405f203c5787a3290a3519b07a6d17f2d16432a98a7",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "siemens-unified-comfort",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/simatic-hmi/wincc-unified-hardware/",
+      "imageSource": "https://images.sw.cdn.siemens.com/siemens-disw-assets/public/38VfQF4F4WalmNu7SasSI5/en-US/a238e1e1-42aa-4e39-a4fc-44024b141028-SIMATIC-HMI-Panels-1280x720.PNG?auto=format%2Ccompress&w=1280&h=720&fit=crop&crop=faces%2Cedges&q=60",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-unified-comfort.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "2a04d93d6e1c6d2918a92ccad732a3ae0c6adbd06d7050478d3cfdfeb129ae47",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "siemens-simatic-s7-1500",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/simatic/controller-configurator/",
+      "imageSource": "https://assets.new.siemens.com/dam-asset/a79706d9-5164-418e-aa57-84d616d66b84/6996ca70-a606-470b-b2cb-7ff9454b73dc-s7-1500-controller-configurator-640x360.png?auto=format%2Ccompress&w=1280&h=720&fit=crop&crop=faces%2Cedges&q=60",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-simatic-s7-1500.png",
+      "dimensions": [
+        1280,
+        720
+      ],
+      "sha256": "4500bfb5a021c00e90574d35cc86e8b7e056d613550a6d61417e2e39f5e72657",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "siemens-sitrans-p320-p420",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/us/en/products/automation/process-instrumentation/pressure-measurement/sitrans-p320-420.html",
+      "imageSource": "https://assets.ctfassets.net/17si5cpawjzf/6JL8fe9zmGfmKwfA5rGey6/156e5a35c3d615a63b4334e7aa6d1fe1/PIFL-00131-0622-pressure-P320-340.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-sitrans-p320-p420.png",
+      "dimensions": [
+        964,
+        668
+      ],
+      "sha256": "92217171dc3d33080db36532643276f3e05bc02e32786a8bc4d80b28a4c28493",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 47. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "siemens-sitrans-p320-p420-fabricante.pdf",
+          "source": "https://assets.ctfassets.net/17si5cpawjzf/6JL8fe9zmGfmKwfA5rGey6/156e5a35c3d615a63b4334e7aa6d1fe1/PIFL-00131-0622-pressure-P320-340.pdf",
+          "pages": 2,
+          "sha256": "f257cffef5a4dd6d2aa23eb35b8d30ee4ce44b0735c43239968da29427b77c94",
+          "title": "SITRANS P320 / P420 · Información de la línea"
+        },
+        {
+          "file": "siemens-sitrans-p320-p420-manual.pdf",
+          "source": "https://cache.industry.siemens.com/dl/files/273/109955273/att_1267115/v1/A5E44852162en_P320P420_HART_OI_en-US.pdf",
+          "pages": 300,
+          "sha256": "e667aa9f9d5cccdf98eaa02f445ff640c773122871cca6d70a6498bd192e5d9c",
+          "title": "SITRANS P320/P420 · Manual HART"
+        }
+      ]
+    },
+    {
+      "slug": "siemens-sitrans-lr500",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/sitrans/lr500/",
+      "imageSource": "https://references.siemens.com/api/attachment?uri=Data/Published/43714/Attachments/ex/Owens_Corning_Level_PICS-00219-0825.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-sitrans-lr500.png",
+      "dimensions": [
+        352,
+        231
+      ],
+      "sha256": "3b8412a7c62968b9ea1cc638fe4d07949b03d46358b026ec2c75e1a47f60a880",
+      "processing": "Imagen del producto extraída de la página 3 del documento oficial, xref 14.",
+      "documents": [
+        {
+          "file": "siemens-sitrans-lr500-fabricante.pdf",
+          "source": "https://references.siemens.com/api/attachment?uri=Data/Published/43714/Attachments/ex/Owens_Corning_Level_PICS-00219-0825.pdf",
+          "pages": 4,
+          "sha256": "7c890d18f5d452ac251e90741b3a21f5b5158e391aea2d221c8cebf6e332d8d7",
+          "title": "SITRANS LR500 · Caso de aplicación del fabricante"
+        },
+        {
+          "file": "siemens-sitrans-lr500-brochure.pdf",
+          "source": "https://assets.new.siemens.com/siemens/assets/api/uuid:b5a70744-596f-4ac6-b47e-3192329cdf19/dipab10081-00-7600-144.pdf",
+          "pages": 12,
+          "sha256": "e93d06e844308f9058e69189759f50d50b7efbbfef56b6a06df00b6522f099ff",
+          "title": "SITRANS LR500 · Presentación de la familia"
+        }
+      ]
+    },
+    {
+      "slug": "yokogawa-admag-axg",
+      "brand": "Yokogawa",
+      "productSource": "https://www.yokogawa.com/solutions/products-and-services/measurement/field-instruments-products/flow-meters/magnetic-flowmeters/admag-axg-admagti-magnetic-flowmeters/",
+      "imageSource": "https://web-material3.yokogawa.com/1/10589/files/admag-axg-admagti-magnetic-flowmeters.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/yokogawa-admag-axg.png",
+      "dimensions": [
+        650,
+        488
+      ],
+      "sha256": "3d58244909b9f052746e7ead867116f3f6db7e64fe31b2528cc58d770d29d6ac",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "yokogawa-rotamass",
+      "brand": "Yokogawa",
+      "productSource": "https://www.yokogawa.com/solutions/products-and-services/measurement/field-instruments-products/flow-meters/coriolis-flow-meters/rotamass-total-insight-coriolis-mass-flow-and-density-meters/",
+      "imageSource": "https://web-material3.yokogawa.com/1/8550/files/ROTAMASS Total Insight_en.png",
+      "imageFile": "apps/instrumental-solution/assets/source/yokogawa-rotamass.png",
+      "dimensions": [
+        650,
+        488
+      ],
+      "sha256": "0f7e96a144e5ef8163d41b4e0370f2f10c8b91ebf899761dc9be419349907a08",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "yokogawa-vy",
+      "brand": "Yokogawa",
+      "productSource": "https://www.yokogawa.com/solutions/products-and-services/measurement/field-instruments-products/flow-meters/vortex-flow-meters/vortex-flowmeters-vy-series/",
+      "imageSource": "https://web-material3.yokogawa.com/1/32086/files/Vortex_Flowmeters_VY_top2.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/yokogawa-vy.png",
+      "dimensions": [
+        580,
+        580
+      ],
+      "sha256": "9c0527991a4fcb42c4f4a0384fcc516db7c4bbcd58effd93336ce2e2b884c815",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "yokogawa-flxa402",
+      "brand": "Yokogawa",
+      "productSource": "https://www.yokogawa.com/nl/solutions/products-and-services/measurement/analyzers/liquid-analyzers/ph-analyzers/multi-channel-4-wire-analyzer-flxa402/",
+      "imageSource": "https://web-material3.yokogawa.com/897d19737a748bb45afb07bac75147c2bee54306.png",
+      "imageFile": "apps/instrumental-solution/assets/source/yokogawa-flxa402.png",
+      "dimensions": [
+        1000,
+        667
+      ],
+      "sha256": "8399cbb556c2c4c2220d8d4be6d8dac7fdd0d2f5b8fad4c2adcaf42c86152bee",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "yokogawa-flxa402t",
+      "brand": "Yokogawa",
+      "productSource": "https://www.yokogawa.com/ph/solutions/products-and-services/measurement/analyzers/liquid-analyzers/turbidity-analyzers/liquid-analyzer-turbidity-chlorine-flxa402t/",
+      "imageSource": "https://web-material3.yokogawa.com/1/30563/files/Liquid_Analyzer_for_Turbidity_and_Chlorine_FLXA402T.png",
+      "imageFile": "apps/instrumental-solution/assets/source/yokogawa-flxa402t.png",
+      "dimensions": [
+        386,
+        268
+      ],
+      "sha256": "41ed58e9cddae852229e10ff9795ad492ce638a906d6ba5b5728cab19fa58617",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "schneider-m241",
+      "brand": "Schneider Electric",
+      "productSource": "https://www.se.com/uk/en/download/document/DIA3ED2140107EN/",
+      "imageSource": "https://download.se.com/files?default_image=DefaultProductImage.png&p_Doc_Ref=PF130208&p_File_Type=rendition_369_jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/schneider-m241.png",
+      "dimensions": [
+        369,
+        369
+      ],
+      "sha256": "47e6a6aa0cb53f00040df3b0a2e92aa5b84fb5b17f916d2bb348a608d2a5083f",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": [
+        {
+          "file": "schneider-m241-fabricante.pdf",
+          "source": "https://download.se.com/files?p_Doc_Ref=DIA3ED2140107EN",
+          "pages": 21,
+          "sha256": "0babc51e4e78e2b5a2a5e427196825ea1c9e0723b891a5a62b12d0b5404758e6",
+          "title": "Modicon M241 · Catálogo de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "schneider-m251",
+      "brand": "Schneider Electric",
+      "productSource": "https://www.se.com/uk/en/download/document/DIA3ED2140108EN/",
+      "imageSource": "https://download.se.com/files?default_image=DefaultProductImage.png&p_Doc_Ref=PF130200&p_File_Type=rendition_369_jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/schneider-m251.png",
+      "dimensions": [
+        369,
+        369
+      ],
+      "sha256": "6ceb1dd7ef4f1a5d5ced34e79c42b02d9e8c167f65502ead069e3f0d86c05813",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": [
+        {
+          "file": "schneider-m251-fabricante.pdf",
+          "source": "https://download.se.com/files?p_Doc_Ref=DIA3ED2140108EN",
+          "pages": 21,
+          "sha256": "b02c419872f04fccab87b773e07bd3da749b612c5d17e1532690bcfbc46389f7",
+          "title": "Modicon M251 · Catálogo de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "schneider-m262",
+      "brand": "Schneider Electric",
+      "productSource": "https://www.se.com/uk/en/download/document/DIA3ED2180503EN/",
+      "imageSource": "https://download.se.com/files?default_image=DefaultProductImage.png&p_Doc_Ref=M262_CPMGU18001&p_File_Type=rendition_369_jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/schneider-m262.png",
+      "dimensions": [
+        369,
+        369
+      ],
+      "sha256": "9ac4a3ebbe8cbd2453ef7736a85ebba15133dd5351edd273a88bb0fd18dd75a9",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": [
+        {
+          "file": "schneider-m262-fabricante.pdf",
+          "source": "https://download.se.com/files?p_Doc_Ref=DIA3ED2180503EN",
+          "pages": 25,
+          "sha256": "b8eabe3fb38238e4824cf1308bae7d8119ecc6273d7a061a3bd36c356a905cf1",
+          "title": "Modicon M262 · Catálogo de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "schneider-harmony-gtu",
+      "brand": "Schneider Electric",
+      "productSource": "https://www.se.com/uk/en/download/document/DIA5ED2140401EN/",
+      "imageSource": "https://download.se.com/files?default_image=DefaultProductImage.png&p_Doc_Ref=PF131927&p_File_Type=rendition_369_jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/schneider-harmony-gtu.png",
+      "dimensions": [
+        369,
+        369
+      ],
+      "sha256": "f50cab3333b619a3a79ab6be7bed59d3b9d123e0e91d0c18c2519d5ebd260314",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": [
+        {
+          "file": "schneider-harmony-gtu-fabricante.pdf",
+          "source": "https://download.se.com/files?p_Doc_Ref=DIA5ED2140401EN",
+          "pages": 31,
+          "sha256": "3f6424615679217d99905b978c716a795df780d37f087841ced975a1e6b73554",
+          "title": "Harmony GTU · Catálogo de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "siemens-sitrans-lr100",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/sitrans/process-instrumentation-brochures/",
+      "imageSource": "https://assets.ctfassets.net/17si5cpawjzf/ysQXElbL8THs6W597HwuZ/b9760831499ac8c302c38733b056e97e/PIBR-B10081-0222-LR100-US.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-sitrans-lr100.png",
+      "dimensions": [
+        537,
+        622
+      ],
+      "sha256": "fcf5d4ed914c1fe4bf0d8feccfd801e798c022ec28fc93d090e53ed9acf1baff",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 5915. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "siemens-sitrans-lr100-fabricante.pdf",
+          "source": "https://assets.ctfassets.net/17si5cpawjzf/ysQXElbL8THs6W597HwuZ/b9760831499ac8c302c38733b056e97e/PIBR-B10081-0222-LR100-US.pdf",
+          "pages": 8,
+          "sha256": "9936e911c2b03d1e0ccf432b73d68f5d40636ab61aa8789913da8f3fb3d6fb8a",
+          "title": "SITRANS LR100 · Información de la línea"
+        }
+      ]
+    },
+    {
+      "slug": "sino-inst-mfc",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/mass-flow-controllers-mfm-mfc/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Digital-Gas-Mass-Flowmeter-Mass-Flow-Controller.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-mfc.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "65ac167ef1778dab3a7775c439daee728f72560db5b31a6ed010c75346039939",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "sino-inst-caudal-solidos",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/solid-flow-meter-powder-mass-flow-measurement/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2023/12/Solid-Flow-Meter.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-inst-caudal-solidos.png",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "6cfc4a853a470af832fb1210d7e5df79b11b899acde7ee1a64ae37046b1c1bb1",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "yokogawa-ejx110a",
+      "brand": "Yokogawa",
+      "productSource": "https://www.yokogawa.com/us/solutions/products-and-services/measurement/field-instruments-products/pressure-transmitters/differential-pressure/ejx110a/",
+      "imageSource": "https://res.cloudinary.com/dncahn7kb/image/upload/c_limit,q_50:420,w_1920/s3-origin/2/174/details/EJX110_750.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/yokogawa-ejx110a.png",
+      "dimensions": [
+        476,
+        750
+      ],
+      "sha256": "f2c6fa8f243dd18df9d24c546df0c8a36d6b9c701ab2349d44ec1b9d69ccc7aa",
+      "processing": "Conversión a PNG y reducción proporcional; sin aumento de resolución o alteración generativa del instrumento.",
+      "documents": []
+    },
+    {
+      "slug": "yokogawa-ejx510a",
+      "brand": "Yokogawa",
+      "productSource": "https://web-material3.yokogawa.com/GS01C25F01-01EN.pdf",
+      "imageSource": "https://web-material3.yokogawa.com/GS01C25F01-01EN.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/yokogawa-ejx510a.png",
+      "dimensions": [
+        610,
+        888
+      ],
+      "sha256": "f7b9d7138911ebf31a9360bf3edc90f886b6c192fe946947cf243160ad037b93",
+      "processing": "Imagen extraída del documento oficial; página 1, xref 216. Sin cambios generativos del instrumento.",
+      "documents": [
+        {
+          "file": "yokogawa-ejx510a-fabricante.pdf",
+          "source": "https://web-material3.yokogawa.com/GS01C25F01-01EN.pdf",
+          "pages": 13,
+          "sha256": "fe13e371e70565c706fcfff488051d241b9af1454b851c2f1e7eb1b65eb80c61",
+          "title": "EJX510A · Información de la línea"
+        }
+      ]
+    }
+  ]
+}

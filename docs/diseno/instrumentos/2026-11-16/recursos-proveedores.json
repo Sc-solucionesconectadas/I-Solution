@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-16",
+  "note": "Referencias de series/familias para consulta. No se afirma stock, exclusividad o representación oficial. Las imágenes se conservaron sin alteración generativa del equipo.",
+  "resources": [
+    {
+      "slug": "endress-promag-w10",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.endress.com/en/field-instruments-overview/flow-measurement-product-overview/electromagnetic-flowmeter-promag-w10-5wbb",
+      "imageSource": "https://bdih-download.endress.com/file/05b668eb7131c35ec53504d83d2a10b7/TI01580DEN_0222-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/promag-w10.png",
+      "processing": "Primera página: imagen de producto extraída del PDF oficial.",
+      "dimensions": [
+        1156,
+        1825
+      ],
+      "sha256": "40f41081133e63639863243bc032c6dbe82cf56fcb9f138c4aef6cf58707ab38",
+      "documentFile": "apps/instrumental-solution/assets/documents/endress-promag-w10-informacion-tecnica.pdf"
+    },
+    {
+      "slug": "endress-liquiline-cm442",
+      "brand": "Endress+Hauser",
+      "productSource": "https://www.apsc.endress.com/en/field-instruments-overview/liquid-analysis-product-overview/digital-field-transmitter-cm442",
+      "imageSource": "https://bdih-download.endress.com/file/e55c5267b62ff977e2694bb30f5dcb6c/TI00444CEN_2925-00.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/liquiline-cm442.png",
+      "processing": "Primera página: imagen de la familia CM44x extraída del PDF oficial.",
+      "dimensions": [
+        773,
+        638
+      ],
+      "sha256": "b5d9c054b679ff2c95613d97626702982f71efb837af35e7cb09af46404d893a",
+      "documentFile": "apps/instrumental-solution/assets/documents/endress-liquiline-cm44x-informacion-tecnica.pdf"
+    },
+    {
+      "slug": "trumen-lsv",
+      "brand": "Trumen",
+      "productSource": "https://trumen.in/vibrating-fork-point-level-switch-manufacturers.html",
+      "imageSource": "https://trumen.in/datasheet/LSV_Data_Sheet_Trumen.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/trumen-lsv.png",
+      "processing": "Primera página: imagen xref223 y máscara222; extracción con transparencia original.",
+      "dimensions": [
+        1772,
+        5079
+      ],
+      "sha256": "6dddc71a86de23e4c07923a7179628341208b8e64d943a18bb44f6e9a9f36f3e",
+      "documentFile": "apps/instrumental-solution/assets/documents/trumen-lsv-ficha-fabricante.pdf"
+    },
+    {
+      "slug": "yokogawa-ejx530a",
+      "brand": "Yokogawa",
+      "productSource": "https://www.yokogawa.com/us/solutions/products-and-services/measurement/field-instruments-products/pressure-transmitters/gauge-pressure/ejx530a/",
+      "imageSource": "https://web-material3.yokogawa.com/GS01C25F01-01EN.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/yokogawa-ejx530a.png",
+      "processing": "Primera página: imagen oficial; conversión CMYK a sRGB con perfil ICC.",
+      "dimensions": [
+        610,
+        888
+      ],
+      "sha256": "b45f67242ef32e52c3ab851fe4e3b3f530968c36eb2b4862335ab5c549e9d277",
+      "documentFile": "apps/instrumental-solution/assets/documents/yokogawa-ejx510a-ejx530a-especificaciones.pdf"
+    },
+    {
+      "slug": "siemens-sitrans-probe-lu240",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-gb/products/sitrans/probe-lu240/",
+      "imageSource": "https://cache.industry.siemens.com/dl/files/058/109765058/att_1297099/v1/sitransl_probe_lu240_fi01_en.pdf",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-lu240.png",
+      "processing": "Primera página: imagen oficial extraída sin ampliar.",
+      "dimensions": [
+        328,
+        638
+      ],
+      "sha256": "cbac23ee945b6c82111ff8c63aa2859b189b3670974ef25f7b815710de55e703",
+      "documentFile": "apps/instrumental-solution/assets/documents/siemens-lu240-informacion-tecnica.pdf"
+    },
+    {
+      "slug": "siemens-simatic-s7-1200-g2",
+      "brand": "Siemens",
+      "productSource": "https://www.siemens.com/en-us/products/simatic/s7-1200-g2/",
+      "imageSource": "https://images.sw.cdn.siemens.com/siemens-disw-assets/public/2oI7av5qqEDJbojblRuinQ/en-US/simatic-automations-s71200g2-station-dc-feature-640x360.jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/siemens-s71200g2.png",
+      "processing": "Imagen de la familia en el sitio oficial; conjunto de CPU y módulos.",
+      "dimensions": [
+        640,
+        360
+      ],
+      "sha256": "930952856733677ff2a68ca49d59f734e9d77c2170a5b47c7d3eb9805a06b272"
+    },
+    {
+      "slug": "sino-inst-coriolis-serie-u",
+      "brand": "Sino-Inst",
+      "productSource": "https://sino-inst.com/u-series-coriolis-flow-meter/",
+      "imageSource": "https://sino-inst.com/wp-content/uploads/2024/06/U-Series-Coriolis-Flow-Meter.webp",
+      "imageFile": "apps/instrumental-solution/assets/source/sino-coriolis.png",
+      "processing": "Imagen oficial de la serie U, convertida de WebP a PNG sin inventar detalles.",
+      "dimensions": [
+        600,
+        600
+      ],
+      "sha256": "2db94395a5b32ae07ac48b679419585f29c9775b5ebe842b51100bb50260f5ca"
+    },
+    {
+      "slug": "schneider-modicon-m221",
+      "brand": "Schneider Electric",
+      "productSource": "https://www.se.com/es/es/faqs/FAQ000235521/",
+      "imageSource": "https://download.se.com/files?p_Doc_Ref=PF130224&p_File_Type=rendition_1500_jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/schneider-m221.png",
+      "processing": "Imagen oficial de referencia Modicon M221 a1500px.",
+      "dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "83c7475dd17bddfe9fcc0a98af66e8740b19c5ac7eeb9244c075096b9ee4394c",
+      "documentFile": "apps/instrumental-solution/assets/documents/schneider-m221-manual-hardware.pdf"
+    },
+    {
+      "slug": "schneider-harmony-st6",
+      "brand": "Schneider Electric",
+      "productSource": "https://productinfo.se.com/harmony_st6/harmony-st6-user-manual/English/BM_Aurora%20Magelis%20HMIST%20User%20Manual_57d08d23_T001969321.xml/%24/TPC_Aurora_BibInfoST6000_57d08d23_T001966702",
+      "imageSource": "https://download.se.com/files?p_Doc_Ref=ST6_65770_FPMFS18014&p_File_Type=rendition_1500_jpg",
+      "imageFile": "apps/instrumental-solution/assets/source/schneider-st6.png",
+      "processing": "Vista frontal oficial de Harmony ST6 a1500px.",
+      "dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "b2c1a251f78f1d90c8e74cfe4bd0f10d1dc049c2ceb543aa177d3e5de3804f0c",
+      "documentFile": "apps/instrumental-solution/assets/documents/schneider-harmony-st6-manual.pdf"
+    }
+  ]
+}

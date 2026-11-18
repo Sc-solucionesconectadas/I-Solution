@@ -3,13 +3,17 @@ import assert from 'node:assert/strict';
 import {readFile,access} from 'node:fs/promises';
 import {join} from 'node:path';
 import {prepareIsolutionDemo,demoDirectory,root} from '../scripts/prepare-isolution-demo.mjs';
+import {pages} from '../apps/instrumental-solution/pages.mjs';
 import {buildInstrumental} from '../scripts/build-instrumental.mjs';
 
 test('demo pública raíz con catálogo y manuales completos, sin transporte de correo',async()=>{
   const report=await prepareIsolutionDemo();
-  assert.equal(report.pages,26);assert.equal(report.basePath,'/');
+  const products=JSON.parse(await readFile(join(root,'content/instrumental-solution/productos.json'),'utf8'));
+  assert.equal(report.pages,pages(products).length);assert.equal(report.basePath,'/');
   const manifest=JSON.parse(await readFile(join(root,'.qa/cloudflare/isolution-demo-report.json'),'utf8'));
-  assert.equal(manifest.inventory.filter(file=>file.path.endsWith('.pdf')).length,23);
+  const sheets=JSON.parse(await readFile(join(root,'content/instrumental-solution/fichas-pdf.json'),'utf8'));
+  const expectedDocuments=new Set(['catalogo-isolution.pdf',...products.filter(p=>p.active!==false).flatMap(p=>p.documents.map(d=>d.file)),...Object.values(sheets.products).map(s=>s.file)]);
+  assert.equal(manifest.inventory.filter(file=>file.path.endsWith('.pdf')).length,expectedDocuments.size);
   assert.ok(manifest.inventory.some(file=>file.path==='assets/documentos/catalogo-isolution.pdf'));
   for(const file of manifest.inventory.filter(file=>file.path.endsWith('/index.html')||file.path==='index.html')){
     const html=await readFile(join(demoDirectory,file.path),'utf8');

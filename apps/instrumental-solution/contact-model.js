@@ -11,7 +11,7 @@ export class ContactError extends Error {
 }
 
 export function consultationPayload(fields) {
-  const limits={name:100,company:140,email:160,phone:40,reason:100,instrument:220,service:160,message:1800,subject:120};
+  const limits={name:100,company:140,email:160,phone:40,reason:100,instrument:220,service:160,brand:80,technology:100,message:1800,subject:120};
   const values={};
   for(const [key,max] of Object.entries(limits)){
     if(typeof fields[key]!=='string'&&fields[key]!==undefined)throw new ContactError('INVALID');

@@ -1,3 +1,4 @@
+import './brand-carousel.js';
 const root = document.documentElement;
 const menuButton = document.querySelector('.menu-toggle');
 const nav = document.querySelector('#navigation');
@@ -71,11 +72,3 @@ reducedMotion.addEventListener('change', event => {
   if (event.matches) { animations.forEach(animation => animation.cancel()); animations.clear(); }
 });
 root.classList.add('js-ready');
-
-// Native download stays usable without JS. Browsers do not expose its completion.
-document.querySelector('[data-catalogue-download]')?.addEventListener('click',()=>{
-  const feedback=document.querySelector('#catalogue-download-feedback');
-  if(!feedback)return;
-  feedback.textContent='La descarga se solicitó. Revisá las descargas de tu navegador.';
-  feedback.hidden=false;
-});

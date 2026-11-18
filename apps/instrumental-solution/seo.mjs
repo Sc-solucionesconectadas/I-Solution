@@ -13,21 +13,22 @@ export function publicationPlan({baseUrl,site,products,pages,images={}}) {
   const absolute=path=>new URL(path,base).href;
   const organization={'@type':'Organization','@id':absolute('#empresa'),name:'Instrumental Solution SRL',alternateName:site.name,url:base,email:site.email,telephone:site.phone,address:{'@type':'PostalAddress',streetAddress:'Castellanos 317',postalCode:'2000',addressLocality:'Rosario',addressRegion:'Santa Fe',addressCountry:'AR'}};
   const records=pages.map(page=>{
-    const product=products.find(p=>page.slug===`productos/${p.slug}/`);
+    const product=products.filter(p=>p.active!==false).find(p=>page.slug===`productos/${p.slug}/`);
     const image=images[product?.image??'empresa-hero']?.variants?.at(-1)?.file;
-    const canonical=absolute(page.slug==='descargas/'?'productos/':page.slug);
+    const canonical=absolute(page.redirectTo??(page.slug==='descargas/'?'productos/':page.slug));
     const graph=[organization];
     if(product){
       const entry={'@type':product.kind==='line'?'ProductGroup':'Product',name:`${product.name} · ${product.series}`,description:product.summary,url:canonical};
       if(product.brand)entry.brand={'@type':'Brand',name:product.brand};
       if(product.model)entry.model=product.model;
+      if(product.measurement)entry.additionalProperty=[{'@type':'PropertyValue',name:'Principio de funcionamiento',value:product.measurement.principle}];
       if(image)entry.image=absolute(`assets/${image}`);
       graph.push(entry);
     }
     return {slug:page.slug,canonical,title:page.title,description:page.description,image:image?absolute(`assets/${image}`):null,type:product?'product':'website',schema:{'@context':'https://schema.org','@graph':graph}};
   });
-  const sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+records.filter(page=>page.slug!=='descargas/').map(page=>`<url><loc>${e(page.canonical)}</loc></url>`).join('')+'</urlset>\n';
-  const migrations=products.filter(p=>p.source).map(p=>({from:p.source,to:absolute(`productos/${p.slug}/`),status:'Revisar e implementar en el hosting de origen; no aplicada'}));
+  const sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+records.filter(page=>page.slug!=='descargas/'&&!page.slug.startsWith('productos/buscar/')&&!pages.find(p=>p.slug===page.slug)?.redirectTo).map(page=>`<url><loc>${e(page.canonical)}</loc></url>`).join('')+'</urlset>\n';
+  const migrations=products.filter(p=>{if(!p.source)return false;const url=new URL(p.source);return url.hostname.replace(/^www\./,'')==='solution.com.ar'&&url.pathname.startsWith('/producto/');}).map(p=>({from:p.source,to:absolute(`productos/${p.slug}/`),status:'Revisar e implementar en el hosting de origen; no aplicada'}));
   return {baseUrl:base,status:'Preparación local; dominio propuesto, sin publicación ni indexación activada',pages:records,sitemap,robots:`User-agent: *\nAllow: /\nSitemap: ${absolute('sitemap.xml')}\n`,migrations};
 }
 

@@ -7,6 +7,9 @@ import sharp from 'sharp';
 import { layout, pages } from '../apps/instrumental-solution/render.mjs';
 import {contactEndpoint,RECIPIENT} from '../apps/instrumental-solution/contact-model.js';
 import {validateCatalogue} from '../apps/instrumental-solution/content-validation.mjs';
+import {validateGuide} from '../apps/instrumental-solution/guide-validation.mjs';
+import {publishedProducts,categoryFor,categoriesWithProducts} from '../apps/instrumental-solution/catalogue-taxonomy.js';
+import {collectionRecords} from '../apps/instrumental-solution/collection-pages.mjs';
 
 const projectRoot = resolve(import.meta.dirname, '..');
 export async function buildInstrumental(input = {}) {
@@ -25,11 +28,17 @@ export async function buildInstrumental(input = {}) {
   const assets = join(target, 'assets');
   const app = join(projectRoot, 'apps/instrumental-solution');
   const load = name => readFile(join(projectRoot, 'content/instrumental-solution', `${name}.json`), 'utf8').then(JSON.parse);
-  const [site, products, institution, registry, copy] = await Promise.all(['site', 'productos', 'institucional', 'imagenes', 'textos'].map(load));
+  const [site, allProducts, institution, registry, copy] = await Promise.all(['site', 'productos', 'institucional', 'imagenes', 'textos'].map(load));
+  const guide=await load('marcas');
   const contact=await load('contacto');
   contact.endpoint=contactEndpoint(input.contactEndpoint ?? contact.endpoint);
   if(contact.recipient!==RECIPIENT||contact.recipient!==site.email||typeof contact.subject!=='string'||contact.subject.length>120||/[\r\n]/.test(contact.subject))throw new Error('Revisar la configuración institucional de contacto de i-Solution.');
-  validateCatalogue(products,registry);
+  validateCatalogue(allProducts,registry);
+  const products=publishedProducts(allProducts);
+  for(const p of products)if(!categoryFor(p))throw new Error('Asigná una categoría válida al instrumento '+p.slug);
+  const reserved=new Set(['buscar',...categoriesWithProducts(products).map(c=>c.id)]);
+  if(allProducts.some(p=>reserved.has(p.slug)))throw new Error('La URL de un instrumento coincide con una categoría.');
+  validateGuide(guide,products);
   if(Object.keys(copy.images).some(key=>Object.hasOwn(registry,key))) throw new Error('Las imágenes editoriales no deben sustituir recursos del catálogo.');
   await rm(target, { force: true, recursive: true });
   await mkdir(join(assets, 'documentos'), { recursive: true });
@@ -111,7 +120,15 @@ export async function buildInstrumental(input = {}) {
     await sharp(prepared).autoOrient().resize({width:240,withoutEnlargement:true}).webp({quality:88,lossless:true,smartSubsample:true}).toFile(join(assets,`agency-${agency}.webp`));
   }
   await cp(join(projectRoot,'apps/instrumental-solution/assets/fonts'),join(assets,'fonts'),{recursive:true});
-  for (const name of ['site.css','website.css','polish.css','app.js','counters.js','counter-model.js','product-media.js','catalogue.js','catalogue-model.js','contact-context.js','contact.js','contact-model.js','form-validation.js']) await cp(join(app,name),join(assets,name));
+  await mkdir(join(assets,'brands'),{recursive:true});
+  for(const brand of guide.brands){
+    if(!/^[a-z0-9-]+$/.test(brand.id)||!/^[a-z0-9-]+\.(?:svg|webp|png)$/.test(brand.logo))throw new Error('Marca o logo inválidos.');
+    const file=join(app,'assets/brands',brand.logo);
+    const bytes=await readFile(file);
+    if(brand.logo.endsWith('.svg')&&/<script|<foreignObject|\son[a-z]+\s*=|(?:href|url)\s*[(=]\s*["']?(?:https?:|data:|javascript:)/i.test(bytes.toString('utf8')))throw new Error('Logo SVG con contenido externo o activo.');
+    await cp(file,join(assets,'brands',brand.logo));
+  }
+  for (const name of ['site.css','website.css','polish.css','catalogue-guide.css','catalogue-navigation.css','brand-carousel.js','catalogue-directory.js','collection.js','collection-model.js','catalogue-taxonomy.js','product-return.js','catalogue-context.js','app.js','counters.js','counter-model.js','product-media.js','catalogue.js','catalogue-model.js','contact-context.js','contact.js','contact-model.js','form-validation.js']) await cp(join(app,name),join(assets,name));
   await writeFile(join(assets,'favicon.svg'),'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="9" fill="#102b47"/><path d="M15 17h7l-4 15h-7z" fill="#00a4e9"/><circle cx="21" cy="9" r="4" fill="#00a4e9"/></svg>');
   let cataloguePdf='';
   let catalogueCover;
@@ -140,8 +157,10 @@ export async function buildInstrumental(input = {}) {
     } else console.warn('Catálogo PDF omitido: regenerar con scripts/create-instrumental-catalog.py para los datos actuales.');
   }
   if (input.requireDocuments && (!cataloguePdf || Object.keys(sheets).length !== products.length || products.some(product => !sheets[product.slug]))) throw new Error('Documentación desactualizada: regenerar fichas y catálogo antes de publicar la demo.');
-  const ctx={site,contact,products,institution,copy,documentSizes,images,cataloguePdf,catalogueCover,videoPosters,href:path=>`${basePath}${path}`};
-  const sitePages = pages(products,copy);
+  const ctx={site,contact,guide,products,institution,copy,documentSizes,images,cataloguePdf,catalogueCover,videoPosters,href:path=>`${basePath}${path}`};
+  const sitePages = pages(allProducts,copy);
+  await mkdir(join(assets,'catalogue'),{recursive:true});
+  for(const category of [...categoriesWithProducts(products),null])await writeFile(join(assets,'catalogue',`${category?.id??'buscar'}.json`),JSON.stringify(collectionRecords(ctx,category)),'utf8');
   if(sitePages.some(page=>!page.title||!page.description)) throw new Error('Faltan títulos o descripciones editoriales.');
   if(new Set(sitePages.map(page=>page.title)).size!==sitePages.length||new Set(sitePages.map(page=>page.description)).size!==sitePages.length) throw new Error('Cada página requiere un título y una descripción únicos.');
   for (const page of sitePages) {
@@ -152,6 +171,9 @@ export async function buildInstrumental(input = {}) {
     await writeFile(join(directory,'index.html'),html,'utf8');
   }
   await writeFile(join(target,'robots.txt'),'User-agent: *\nDisallow: /\n');
+  // Preserve old bookmarks without generating a duplicate catalogue landing page.
+  const catalogueTarget=ctx.href(cataloguePdf||'productos/');
+  await writeFile(join(target,'_redirects'),['catalogo','catalogo/','catalogo/index.html'].map(path=>`${ctx.href(path)} ${catalogueTarget} 302`).join('\n')+'\n');
   return {pages:sitePages.length,basePath,outDir,mode:'preview'};
 }
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {

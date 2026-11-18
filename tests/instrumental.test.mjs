@@ -12,6 +12,7 @@ import {specificationGroups,productResources} from '../apps/instrumental-solutio
 import {publicationPlan,publicBaseUrl,seoHead} from '../apps/instrumental-solution/seo.mjs';
 
 const root=resolve(import.meta.dirname,'..');
+const currentProducts=JSON.parse(await readFile(join(root,'content/instrumental-solution/productos.json'),'utf8'));
 const hash=data=>createHash('sha256').update(data).digest('hex');
 
 test('i-Solution construye páginas y documentos sin borrar el sitio hermano',async()=>{
@@ -19,9 +20,9 @@ test('i-Solution construye páginas y documentos sin borrar el sitio hermano',as
   await mkdir(join(outDir,'lmr'),{recursive:true});
   await writeFile(join(outDir,'lmr/index.html'),'LMR debe conservarse');
   const report=await buildInstrumental({outDir});
-  assert.equal(report.pages,26);
+  assert.equal(report.pages,pages(currentProducts).length);
   assert.equal(await readFile(join(outDir,'lmr/index.html'),'utf8'),'LMR debe conservarse');
-  const data=JSON.parse(await readFile(join(root,'content/instrumental-solution/productos.json'),'utf8'));
+  const data=JSON.parse(await readFile(join(root,'content/instrumental-solution/productos.json'),'utf8'));const visibleData=data.filter(p=>p.active!==false);
   const titles=[],descriptions=[];
   const copy=JSON.parse(await readFile(join(root,'content/instrumental-solution/textos.json'),'utf8'));
   for(const {slug} of pages(data)){
@@ -48,8 +49,8 @@ test('i-Solution construye páginas y documentos sin borrar el sitio hermano',as
       }
     }
   }
-  assert.equal(new Set(titles).size,26);
-  assert.equal(new Set(descriptions).size,26);
+  assert.equal(new Set(titles).size,pages(currentProducts).length);
+  assert.equal(new Set(descriptions).size,pages(currentProducts).length);
   const home=await readFile(join(outDir,'instrumental-solution/index.html'),'utf8');
   const hero=home.match(/<section class="home-photo-hero"[\s\S]*?<\/section>/)?.[0];
   assert.ok(hero);
@@ -59,9 +60,13 @@ test('i-Solution construye páginas y documentos sin borrar el sitio hermano',as
   assert.doesNotMatch(hero,/mosaic-tile|Solicitar asesoramiento|Mostrar más instrumentos|hero-foot/);
   assert.match(hero,/inicio-hero-/);
   assert.match(home,/Ver documentación por instrumento/);
-  assert.match(home,/productos\/\?familia=An%C3%A1lisis%20de%20l%C3%ADquidos#instrumentos/);
+  assert.match(home,/productos\/analisis-de-aguas\//);
   assert.doesNotMatch(home,/class="resource-preview"[^>]*>\s*<a/);
   assert.doesNotMatch(home,/Inglés|Español|\d+ páginas/);
+  const directory=await readFile(join(outDir,'instrumental-solution/productos/index.html'),'utf8');
+  assert.match(directory,/class="instruments-hero"/);assert.match(directory,/Acceder al catálogo digital/);
+  assert.match(directory,/data-brand-autoplay/);assert.match(directory,/directory-featured-card/);
+  assert.doesNotMatch(directory,/class="directory-search"|Elegí una categoría y encontrá el equipo|commercial-brand-caption/);
   const contact=await readFile(join(outDir,'instrumental-solution/contacto/index.html'),'utf8');
   assert.match(contact,/<form class="inquiry-form"[^>]+data-inquiry-form/);
   assert.match(contact,/<button[^>]+type="submit" disabled/);
@@ -102,11 +107,11 @@ test('i-Solution construye páginas y documentos sin borrar el sitio hermano',as
   assert.match(services,/Consultar al servicio técnico/);
   for(const id of ['laboratorio','planta','calibracion','automatizacion','analiticos'])assert.match(services,new RegExp(`servicio-${id}-`));
   assert.doesNotMatch(services,/closing-section/);
-  for(const slug of ['quienes-somos/','equipo/','productos/','catalogo/',...data.map(p=>`productos/${p.slug}/`)]){
+  for(const slug of ['quienes-somos/','equipo/','productos/',...data.map(p=>`productos/${p.slug}/`)]){
     const html=await readFile(join(outDir,'instrumental-solution',slug,'index.html'),'utf8');
     assert.doesNotMatch(html,/closing-section|contact-panel/);
   }
-  for(const doc of data.flatMap(p=>p.documents)){
+  for(const doc of visibleData.flatMap(p=>p.documents)){
     const original=await readFile(join(root,'apps/instrumental-solution/assets/documents',doc.file));
     const output=await readFile(join(outDir,'instrumental-solution/assets/documentos',doc.file));
     assert.equal(hash(output),hash(original));
@@ -114,16 +119,19 @@ test('i-Solution construye páginas y documentos sin borrar el sitio hermano',as
   const metadata=JSON.parse(await readFile(join(root,'content/instrumental-solution/catalogo-pdf.json'),'utf8'));
   const pdf=await readFile(join(outDir,'instrumental-solution/assets/documentos/catalogo-isolution.pdf'));
   assert.equal(hash(pdf),metadata.pdfSha256);
-  const catalogue=await readFile(join(outDir,'instrumental-solution/catalogo/index.html'),'utf8');
-  assert.match(catalogue,/Descargar catálogo PDF/);
-  assert.match(catalogue,/download="catalogo-isolution.pdf"/);
-  assert.match(catalogue,/data-catalogue-download/);
-  assert.match(catalogue,/abrir el catálogo en otra pestaña/);
-  assert.match(catalogue,/catalogo-portada.webp/);
+  await assert.rejects(access(join(outDir,'instrumental-solution/catalogo/index.html')),/ENOENT/);
+  const redirects=await readFile(join(outDir,'instrumental-solution/_redirects'),'utf8');
+  assert.ok(redirects.includes('/instrumental-solution/catalogo/ /instrumental-solution/assets/documentos/catalogo-isolution.pdf 302'));
+  for(const html of [home,directory]){
+    const links=[...html.matchAll(/<a\b[^>]*href="[^"]*catalogo-isolution\.pdf"[^>]*>/g)];
+    assert.ok(links.length>=2,'Hero y footer abren el PDF directamente');
+    for(const [link] of links){assert.match(link,/target="_blank"/);assert.match(link,/rel="noopener noreferrer"/);assert.doesNotMatch(link,/\bdownload[=\s>]/);}
+    assert.doesNotMatch(html,/href="[^"]*\/catalogo\//);
+  }
   const sheets=JSON.parse(await readFile(join(root,'content/instrumental-solution/fichas-pdf.json'),'utf8'));
-  for(const p of data){
+  for(const p of visibleData){
     const html=await readFile(join(outDir,'instrumental-solution/productos',p.slug,'index.html'),'utf8');
-    assert.match(html,/id="descripcion"/);assert.match(html,/id="caracteristicas"/);assert.match(html,/id="documentacion"/);
+    assert.match(html,/id="descripcion"/);assert.match(html,/id="funcionamiento"/);assert.match(html,/id="caracteristicas"/);assert.match(html,/id="documentacion"/);
     assert.match(html,new RegExp(sheets.products[p.slug].file));
     const sheet=await readFile(join(outDir,'instrumental-solution/assets/documentos',sheets.products[p.slug].file));
     assert.equal(hash(sheet),sheets.products[p.slug].pdfSha256);
@@ -201,9 +209,9 @@ test('SEO prepara URLs y datos reales sin inventar ofertas o valoraciones ni act
   const read=name=>readFile(join(root,`content/instrumental-solution/${name}.json`),'utf8').then(JSON.parse);
   const [site,products,copy]=await Promise.all(['site','productos','textos'].map(read));
   const plan=publicationPlan({baseUrl:'https://solution.com.ar/',site,products,pages:pages(products,copy)});
-  assert.equal(plan.pages.length,26);
-  assert.equal((plan.sitemap.match(/<loc>/g)??[]).length,25);
-  assert.equal(plan.migrations.length,6);
+  assert.equal(plan.pages.length,pages(products).length);
+  assert.equal((plan.sitemap.match(/<loc>/g)??[]).length,pages(products).filter(p=>p.slug!=='descargas/'&&!p.redirectTo&&!p.slug.startsWith('productos/buscar/')).length);
+  assert.equal(plan.migrations.length,6);assert.ok(plan.migrations.every(entry=>new URL(entry.from).hostname==='solution.com.ar'));
   const record=plan.pages.find(p=>p.slug.includes('radar-nivel-26-ghz'));
   assert.equal(record.canonical,'https://solution.com.ar/productos/radar-nivel-26-ghz/');
   assert.match(seoHead(record),/application\/ld\+json/);
@@ -231,11 +239,10 @@ test('i-Solution admite un prefijo Pages sin enlaces al dominio antiguo',async()
 
 test('las líneas del folleto se distinguen de modelos y conservan recursos específicos',async()=>{
   const products=JSON.parse(await readFile(join(root,'content/instrumental-solution/productos.json'),'utf8'));
-  assert.equal(products.length,17);
-  const lines=products.filter(p=>p.kind==='line');
+  const lines=products.filter(p=>p.kind==='line'&&!p.brand);
   assert.equal(lines.length,11);
   assert.ok(lines.every(p=>!p.model&&!p.brand&&p.documents.length===0));
-  assert.equal(products.filter(p=>p.family==='Análisis de líquidos').length,2);
+  assert.ok(products.filter(p=>p.family==='Análisis de líquidos').length>=2);
   const site=JSON.parse(await readFile(join(root,'content/instrumental-solution/site.json'),'utf8'));
   const copy=JSON.parse(await readFile(join(root,'content/instrumental-solution/textos.json'),'utf8'));
   const plan=publicationPlan({baseUrl:'https://solution.com.ar/',site,products,pages:pages(products,copy)});

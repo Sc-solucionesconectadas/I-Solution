@@ -7,9 +7,50 @@
   "whatsapp": "5493416938211",
   "address": "Castellanos 317 · Rosario, Santa Fe · Argentina",
   "families": [
-    { "name": "Caudal", "icon": "flow", "description": "Medición de flujo para líquidos y gases, según la tecnología y la aplicación." },
-    { "name": "Nivel", "icon": "level", "description": "Medición continua y detección puntual para tanques y depósitos." },
-    { "name": "Presión", "icon": "pressure", "description": "Transmisores para el seguimiento de la presión del proceso." },
-    { "name": "Análisis de líquidos", "icon": "analysis", "description": "Instrumentos y sensores para el control de las variables del agua." }
+    {
+      "name": "Caudal",
+      "icon": "flow",
+      "description": "Medición de flujo para líquidos y gases, según la tecnología y la aplicación."
+    },
+    {
+      "name": "Nivel",
+      "icon": "level",
+      "description": "Medición continua y detección puntual para tanques y depósitos."
+    },
+    {
+      "name": "Presión",
+      "icon": "pressure",
+      "description": "Transmisores para el seguimiento de la presión del proceso."
+    },
+    {
+      "name": "Análisis de líquidos",
+      "icon": "analysis",
+      "description": "Instrumentos y sensores para el control de las variables del agua."
+    },
+    {
+      "name": "Automatización",
+      "icon": "growth",
+      "description": "PLC y pantallas HMI para controlar equipos y visualizar procesos."
+    },
+    {
+      "name": "Configuración",
+      "icon": "file",
+      "description": "Herramientas para ajustar parámetros de instrumentos compatibles."
+    },
+    {
+      "name": "Temperatura",
+      "icon": "pressure",
+      "description": "Termocuplas y RTD para el seguimiento térmico de equipos y procesos."
+    },
+    {
+      "name": "Densidad y concentración",
+      "icon": "analysis",
+      "description": "Densidad, concentración y viscosidad para el seguimiento del producto."
+    },
+    {
+      "name": "Torque",
+      "icon": "growth",
+      "description": "Sensores de par para máquinas, ejes y ensayos mecánicos."
+    }
   ]
 }

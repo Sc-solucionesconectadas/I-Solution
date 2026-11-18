@@ -9,9 +9,18 @@ export function validateCatalogue(products,images) {
   for(const p of products){
     if(!p||typeof p!=='object')fail('catálogo','producto');
     const id=p.slug||'producto sin URL';
+    if(p.active!==undefined&&typeof p.active!=='boolean')fail(id,'visibilidad');
     if(typeof p.slug!=='string'||!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.slug)||slugs.has(p.slug))fail(id,'slug único');
     slugs.add(p.slug);
     for(const field of ['name','series','family','summary','selectionNote','imageAlt'])if(!text(p[field]))fail(id,field);
+    if(p.source){let url;try{url=new URL(p.source);}catch{fail(id,'fuente técnica');}if(url.protocol!=='https:'||url.username||url.password)fail(id,'fuente técnica HTTPS');}
+    if(p.brandId!==undefined&&(typeof p.brandId!=='string'||p.brandId&&!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(p.brandId)))fail(id,'identificador de marca');
+    if(p.measurement!==undefined){
+      const m=p.measurement;
+      if(!m||typeof m!=='object'||Array.isArray(m)||Object.keys(m).some(key=>!['id','name','principle','selection','diagram'].includes(key)))fail(id,'funcionamiento del instrumento');
+      if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(m.id)||!text(m.name)||m.name.length>120||!text(m.principle)||m.principle.length>2000||!text(m.selection)||m.selection.length>1200)fail(id,'tecnología, funcionamiento y selección');
+      if(m.diagram!==undefined&&!['magnetic','coriolis','vortex','ultrasonic','thermal','turbine','variable-area','radar','guided','fork','pressure','analysis','plc','hmi','configuration','positive-displacement','differential','open-channel','control-loop','ultrasonic-level','hydrostatic','capacitive','float','rod','conductive','rotary-level','temperature','density','torque','generic'].includes(m.diagram))fail(id,'esquema de funcionamiento');
+    }
     if(p.kind!==undefined&&p.kind!=='line')fail(id,'tipo de entrada');
     if(p.kind==='line'&&p.model)fail(id,'línea sin modelo confirmado');
     if(!Object.hasOwn(images,p.image))fail(id,'imagen principal');

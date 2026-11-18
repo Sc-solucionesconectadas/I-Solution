@@ -1,5 +1,6 @@
 import {contactEndpoint,submitConsultation} from './contact-model.js';
 import {installFormValidation} from './form-validation.js';
+import {contextFields} from './catalogue-context.js';
 
 export function installDraftGuard(form) {
   const fields=['nombre','empresa','correo','telefono','motivo','producto','mensaje'];
@@ -51,7 +52,7 @@ export function enhanceInquiry(form,context) {
     if(!validation.validate())return;
     const product=context.products.find(p=>p.id===f.producto.value);
     const service=f.motivo.value==='servicio'?context.services.find(s=>s.id===form.dataset.service):null;
-    const fields={name:f.nombre.value,company:f.empresa.value,email:f.correo.value,phone:f.telefono.value,reason:f.motivo.selectedOptions[0].textContent,instrument:product?.label??'',service:service?.label??'',message:f.mensaje.value,_honey:f._honey.value,subject:form.dataset.subject,source:location.origin+location.pathname};
+    const fields={name:f.nombre.value,company:f.empresa.value,email:f.correo.value,phone:f.telefono.value,reason:f.motivo.selectedOptions[0].textContent,instrument:product?.label??'',service:service?.label??'',...contextFields(context,form.dataset),message:f.mensaje.value,_honey:f._honey.value,subject:form.dataset.subject,source:location.origin+location.pathname};
     const reasonValue=f.motivo.value,productValue=f.producto.value;
     const controls=[...form.querySelectorAll('input,select,textarea,button')];
     const disabled=controls.map(c=>c.disabled);

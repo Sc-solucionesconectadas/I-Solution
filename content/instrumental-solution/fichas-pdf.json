@@ -1,73 +1,497 @@
 {
-  "contentSha256": "0c95887d01b84024e4af6918b70d9e54fad2cd64e2ff937f1e641eb8b7cb7f7f",
+  "contentSha256": "a679ec5a298014b9133a9763201b8eea6cbec83285946325214c9d9981ed7360",
   "products": {
     "radar-nivel-80-120-ghz": {
       "file": "ficha-radar-nivel-80-120-ghz.pdf",
-      "pdfSha256": "5790c58fee9ec7178d412d8635da228bbdf0d53addbc2f168f49cb75b2dfe667"
+      "pdfSha256": "4acc63287c779f21ad165a1b18511154e51fcfdd821938d93513d8fc7798fbef"
     },
     "radar-nivel-26-ghz": {
       "file": "ficha-radar-nivel-26-ghz.pdf",
-      "pdfSha256": "df9b606f70bfdfbf7961e22b9ba8edc18b3b31ad29982bfaab012096543202c8"
+      "pdfSha256": "c55514363b258e285336f24cd80c17ae5251abb4d2e88c94ffa83cc286e5d299"
     },
     "caudalimetro-electromagnetico-sanitario": {
       "file": "ficha-caudalimetro-electromagnetico-sanitario.pdf",
-      "pdfSha256": "3d945b8c371ee62635e2713ae2b99d8ea3c69a9db5ed8c96f1572346261628ca"
-    },
-    "programador-siemens": {
-      "file": "ficha-programador-siemens.pdf",
-      "pdfSha256": "9f285955bd0ad1e9932aae7d4152a8409437ce33cbdaf380f1f240bb703525d5"
+      "pdfSha256": "6203506ef1c61e4761feb2f66389667bba10a9d8f1d5bc19c1d18873fc6e002e"
     },
     "transmisor-presion-smart": {
       "file": "ficha-transmisor-presion-smart.pdf",
-      "pdfSha256": "a7a9c33d6edd8e750499e5296516397a7d960b7b876269650e5730becdcf84e4"
+      "pdfSha256": "c9c3c69630eba017f0a1d3bda5d82d12254646be43e3106cc666aed4736b7290"
     },
     "transmisor-presion-smart-alta-temperatura": {
       "file": "ficha-transmisor-presion-smart-alta-temperatura.pdf",
-      "pdfSha256": "3a10974d403a6beb6bf3137b00886d60c3b76c73477dc45eef94f91a44e23805"
+      "pdfSha256": "acb05dd361d9313b3f1a4249abcbc7207beaebdd6a382031354758edf9b7a377"
     },
     "caudalimetros-electromagneticos": {
       "file": "ficha-caudalimetros-electromagneticos.pdf",
-      "pdfSha256": "366418b59afd6af2285e9ad466c95a3b87e1844bebfbea4011333310c6ac238d"
+      "pdfSha256": "804a8ffcca2e31f9e1b7265859d4df2626044085cb06def9081f14e5109c441d"
     },
     "caudalimetros-vortex": {
       "file": "ficha-caudalimetros-vortex.pdf",
-      "pdfSha256": "79ac3075b0f6b6e9657b5a8481f75bac5294ffd005db61f4d0648fab01855182"
+      "pdfSha256": "2e302c519b30d73c0dcc7e0179f5cc4b16dd7ae9f7ac663acf7d076b6adc3390"
     },
     "caudalimetros-ultrasonicos": {
       "file": "ficha-caudalimetros-ultrasonicos.pdf",
-      "pdfSha256": "17430b34eab71102f4ced6ebf267d64606eb978f0c51820d391901cd72438d31"
+      "pdfSha256": "bcb9ae1e1fc127fb991bc4d2ca0895b01ee6212c6497580c57aae78740ac82c6"
     },
     "caudalimetros-dispersion-termica": {
       "file": "ficha-caudalimetros-dispersion-termica.pdf",
-      "pdfSha256": "aa3c80756343790d0cfbc9aa7b69b010cd0fc019d3133719252e4ae1505bd324"
+      "pdfSha256": "b0f7a2c01097cd3df7f5e9bcd75a9b8dd62615524ee009759a303548650994f6"
     },
     "caudalimetros-turbina": {
       "file": "ficha-caudalimetros-turbina.pdf",
-      "pdfSha256": "cf87c3c88fc58367b24f2bd2d83850b70ea6c722ee5af064c928fc9972e21874"
+      "pdfSha256": "ad32d951ec4bb93e8b5b66649cf07e006a3be81888bee32f63526edbcbeab3c0"
     },
     "caudalimetros-area-variable": {
       "file": "ficha-caudalimetros-area-variable.pdf",
-      "pdfSha256": "83e5c51db8f1949adda0c887f828a8fda1f1122a4c09059f22886146757d3315"
+      "pdfSha256": "532fb6ab593ba79b9ccdc02da0baf70759a285ff1ceb62e9b23043c825d57a99"
     },
     "transmisores-nivel-ultrasonicos": {
       "file": "ficha-transmisores-nivel-ultrasonicos.pdf",
-      "pdfSha256": "977281e8c8c60f83a39a3196ae5b3a0cd64af2c4ddf82d13213603818b6fe26e"
+      "pdfSha256": "ddbcc5d05dc7ca11b5172d4c1fc723775be50f6a52dbe8ab21db6d93feabfdde"
     },
     "radares-nivel-onda-guiada": {
       "file": "ficha-radares-nivel-onda-guiada.pdf",
-      "pdfSha256": "01cca4e4bf87012e7d49870a12b65602f566d6045ccee9a2331c8ec1b51752bd"
+      "pdfSha256": "fc85af82b59433a0820a32f1fce1cdf9bf9619cb2df37da25e0815703afca9d3"
     },
     "detectores-nivel-solidos-liquidos": {
       "file": "ficha-detectores-nivel-solidos-liquidos.pdf",
-      "pdfSha256": "452f39c8256a2440d445490997c502cd72be240e5fb654d7cf43ef8a291617b9"
+      "pdfSha256": "8ff224124634a274660e6870a83943eca3fa6125bcee648238513f9604e94e80"
     },
     "analizadores-liquidos": {
       "file": "ficha-analizadores-liquidos.pdf",
-      "pdfSha256": "f3f0fe5a511e70dbe91e2360f8fb45eab68959117ec340c8d970fe4c8992bcdb"
+      "pdfSha256": "9972b0bb7142308ae63e07e9606ea2fff2af8de58c13c6504c2c1c2dbd3885e4"
     },
     "analizadores-cloro-libre": {
       "file": "ficha-analizadores-cloro-libre.pdf",
-      "pdfSha256": "18a251e8967c6aa20e7d30b55fad5e683543f8e82f17a3a90c048b4fc3f6c6b1"
+      "pdfSha256": "d2e755ec69e0598e38bcc37fd949e0091e4293e693ad53437e002b12b0ed1bbf"
+    },
+    "endress-promag-w10": {
+      "file": "ficha-endress-promag-w10.pdf",
+      "pdfSha256": "ccac2b693e7ad9450cc3ad473377c9fcfaa39ae1cb5f4d1a8390a64710acabeb"
+    },
+    "sino-inst-coriolis-serie-u": {
+      "file": "ficha-sino-inst-coriolis-serie-u.pdf",
+      "pdfSha256": "cb6bc462b20274c78ce63ab093ff2dc41b8ac25b010507a37ac7d1fc6ca85731"
+    },
+    "trumen-lsv": {
+      "file": "ficha-trumen-lsv.pdf",
+      "pdfSha256": "ae7c485b1191199ba6258702fcefe9c1a0d3bc52d66db25872f24c8121d1ed43"
+    },
+    "siemens-sitrans-probe-lu240": {
+      "file": "ficha-siemens-sitrans-probe-lu240.pdf",
+      "pdfSha256": "06eef7acfc967ba1fcc0c98bcfc1de60010acdbad01c04355811e537697f5a17"
+    },
+    "yokogawa-ejx530a": {
+      "file": "ficha-yokogawa-ejx530a.pdf",
+      "pdfSha256": "7109cceb4b715df6525822a236f05a083558113b245477b1ada747c1f5cf4b91"
+    },
+    "endress-liquiline-cm442": {
+      "file": "ficha-endress-liquiline-cm442.pdf",
+      "pdfSha256": "0f0c4494c57776b74e8d62c2464b5d52773a9a5263497728c5efc2706c9b14d0"
+    },
+    "siemens-simatic-s7-1200-g2": {
+      "file": "ficha-siemens-simatic-s7-1200-g2.pdf",
+      "pdfSha256": "8ef10c18385f0ba8a4d330a841958f160000c575b697cdf3bb1818d77aeae6ea"
+    },
+    "schneider-modicon-m221": {
+      "file": "ficha-schneider-modicon-m221.pdf",
+      "pdfSha256": "be4efcbe22df5b4249dfc052955cba8d19e666ef436e553eeced7e809f879303"
+    },
+    "schneider-harmony-st6": {
+      "file": "ficha-schneider-harmony-st6.pdf",
+      "pdfSha256": "02e20702cc18379ee89e8aeb69251414c4e2ce8507d02f767effc8db694edb12"
+    },
+    "trumen-lsvr": {
+      "file": "ficha-trumen-lsvr.pdf",
+      "pdfSha256": "7406e813ab0251fa8cb218411ce89f1e302d4301543ea8086947da1027696670"
+    },
+    "trumen-lfv": {
+      "file": "ficha-trumen-lfv.pdf",
+      "pdfSha256": "8673765f233e4ad436c3959611caa1049372d2d6d490952c793e16c1088d2e77"
+    },
+    "trumen-lfv-11": {
+      "file": "ficha-trumen-lfv-11.pdf",
+      "pdfSha256": "9f82d68708ab32d70c7d100ea106633ee2f8e3ace7447197513e7f2c9e701590"
+    },
+    "trumen-lfv-12": {
+      "file": "ficha-trumen-lfv-12.pdf",
+      "pdfSha256": "a7c8d0ae8627591864917e07a4993489d4365e246c529d51fbc6b64e8d36870b"
+    },
+    "trumen-lsy": {
+      "file": "ficha-trumen-lsy.pdf",
+      "pdfSha256": "710e48ddc49f873ed27346a4be388a017ab0332b36ded7a964b11841b7904712"
+    },
+    "trumen-lmc": {
+      "file": "ficha-trumen-lmc.pdf",
+      "pdfSha256": "89c983bb931802731c68d0fee2f0f34ef18ec35d52492c337b91540b4975cb13"
+    },
+    "trumen-lws": {
+      "file": "ficha-trumen-lws.pdf",
+      "pdfSha256": "bc995258c345f2bde1836fa771d72bf0cac726c1e6952d2fcd23b9c4bad731cc"
+    },
+    "trumen-lsr": {
+      "file": "ficha-trumen-lsr.pdf",
+      "pdfSha256": "e4e35a209577e0f2898bf7ecf19965495fefa17c6c0fd63a826d66cb3c9b09d3"
+    },
+    "trumen-lmf-tm": {
+      "file": "ficha-trumen-lmf-tm.pdf",
+      "pdfSha256": "24196d13e036d3cbdccfabd72b60a23780fb1a804c7a3e6477d48ff3f99d04b9"
+    },
+    "trumen-lmfs": {
+      "file": "ficha-trumen-lmfs.pdf",
+      "pdfSha256": "e5ae96d94fac8cefc85749f762cdb949231635a676a7928290b791eb470dbd1b"
+    },
+    "trumen-lmc-14": {
+      "file": "ficha-trumen-lmc-14.pdf",
+      "pdfSha256": "190841820804b1e42c82ed0c5146ce0a4f31205e8b9a217f87cc53fd153b5323"
+    },
+    "trumen-tlc": {
+      "file": "ficha-trumen-tlc.pdf",
+      "pdfSha256": "2ffae9934acca5e990e594854536fa454134c522b33be14039b2dace91ecc29c"
+    },
+    "trumen-tlh": {
+      "file": "ficha-trumen-tlh.pdf",
+      "pdfSha256": "e10014b272d15e67b1d323f35f48b40ea8b1761efbfbb13c4fa33a7d5f4e26b2"
+    },
+    "trumen-tlr": {
+      "file": "ficha-trumen-tlr.pdf",
+      "pdfSha256": "71af6f374e0fc3d6cb146d7163de27c48d71c51cc2ff5ccff2baddbf24d35bd1"
+    },
+    "trumen-tlu": {
+      "file": "ficha-trumen-tlu.pdf",
+      "pdfSha256": "18199d6c419c2672bedf4cb21dc2b599770acf37075ba0df0a9fc71f93150bad"
+    },
+    "trumen-tlcf": {
+      "file": "ficha-trumen-tlcf.pdf",
+      "pdfSha256": "89a03b1aefa24dd17afc60f16ca02e8026dd8ea80e579cea86d836c4035333b9"
+    },
+    "trumen-tlr31-tlrg": {
+      "file": "ficha-trumen-tlr31-tlrg.pdf",
+      "pdfSha256": "e12a606d4d0487b9cc0072287eeb1bf4a3ee601cda702687f943c975cba1b472"
+    },
+    "trumen-tfp40c": {
+      "file": "ficha-trumen-tfp40c.pdf",
+      "pdfSha256": "96b8978fc72606bc682726ba1c1b0cd0811ab684abfc9b2b263db9025add54dc"
+    },
+    "trumen-tfp40s": {
+      "file": "ficha-trumen-tfp40s.pdf",
+      "pdfSha256": "479b93ee4619fdfb70ae924be69575476eb32fb53a83b4e74f1bd9c6e3525b5e"
+    },
+    "trumen-tfp310": {
+      "file": "ficha-trumen-tfp310.pdf",
+      "pdfSha256": "257c4fdac332a14de2c0b054e7d3227cd6af354f82eb226b230aa25a05752593"
+    },
+    "trumen-tfps70": {
+      "file": "ficha-trumen-tfps70.pdf",
+      "pdfSha256": "801c5b00d98f14ac0130c5864f6934748f8a2f958842eeb95948bca7be5ba330"
+    },
+    "trumen-tfdp70": {
+      "file": "ficha-trumen-tfdp70.pdf",
+      "pdfSha256": "598438710580f3ea0279fc9755418d1f7b957d10c4eb46b9d74c55395b2450ba"
+    },
+    "trumen-tfp40t": {
+      "file": "ficha-trumen-tfp40t.pdf",
+      "pdfSha256": "e80fcd99950f117fe045c0ee319389691905e7681d610d1cb61c55d44023b8e2"
+    },
+    "trumen-tfp300": {
+      "file": "ficha-trumen-tfp300.pdf",
+      "pdfSha256": "fd7aa34ff0b5c670c0e52654d0311e1ffd0958c4cb9bfa49b2ccb6bfb246f48d"
+    },
+    "sino-inst-electromagneticos": {
+      "file": "ficha-sino-inst-electromagneticos.pdf",
+      "pdfSha256": "0534fcb1bd5a7f20b19968ea5e37feda7573c05a249bc38687bb1143b7f254e8"
+    },
+    "sino-inst-turbina": {
+      "file": "ficha-sino-inst-turbina.pdf",
+      "pdfSha256": "8d3fd5ad1c4539d3d6f1fa6e907e7baafd1efc5897ff4775966e1f5ea9b67a1e"
+    },
+    "sino-inst-rueda-paletas": {
+      "file": "ficha-sino-inst-rueda-paletas.pdf",
+      "pdfSha256": "a1a572d8f718b7a042d27a6584b33e0ece4dc4ce2db5c9f130dd23f69bad3d0e"
+    },
+    "sino-inst-vortex": {
+      "file": "ficha-sino-inst-vortex.pdf",
+      "pdfSha256": "ebf90df22fe61a43c009311fbaf4ea591d71c896a7f7a4b3617337c3e5c16350"
+    },
+    "sino-inst-ultrasonico-clamp-on": {
+      "file": "ficha-sino-inst-ultrasonico-clamp-on.pdf",
+      "pdfSha256": "cd31639338611a420332cf16e07006c0a276423e6e22f8b5b390b313b793275d"
+    },
+    "sino-inst-ultrasonico-portatil": {
+      "file": "ficha-sino-inst-ultrasonico-portatil.pdf",
+      "pdfSha256": "ed14110286fcdddd9ea8b291ec117ddb006567b9a1568db4d13577996150afe9"
+    },
+    "sino-inst-ultrasonico-doppler": {
+      "file": "ficha-sino-inst-ultrasonico-doppler.pdf",
+      "pdfSha256": "49d8e0b016a54c33bd0bed86aafa12a570b08cef23afd3978305e6b6269f5f2d"
+    },
+    "sino-inst-termicos": {
+      "file": "ficha-sino-inst-termicos.pdf",
+      "pdfSha256": "066f8d37b1a1131e5dde1fefee802768b092b80299494958bad8568f4172763e"
+    },
+    "sino-inst-desplazamiento-positivo": {
+      "file": "ficha-sino-inst-desplazamiento-positivo.pdf",
+      "pdfSha256": "2f75271090ed86d66b3873f9513ad64c88f24001dfd8f7a1b42c0d846d419621"
+    },
+    "sino-inst-presion-diferencial-caudal": {
+      "file": "ficha-sino-inst-presion-diferencial-caudal.pdf",
+      "pdfSha256": "e794e84f7a0cb86bf90599cd214eaf7a7cef394173c956147c2300e3ce564d08"
+    },
+    "sino-inst-multifasico": {
+      "file": "ficha-sino-inst-multifasico.pdf",
+      "pdfSha256": "6f66d6664eee865ae262a60268e99510a3c0ed12f3361ce37b1c32e9914a0171"
+    },
+    "sino-inst-canal-abierto": {
+      "file": "ficha-sino-inst-canal-abierto.pdf",
+      "pdfSha256": "02f888a589573355d7c8f50129184724cde18a289d9e8d009867b5dc6c812aea"
+    },
+    "sino-inst-switches-caudal": {
+      "file": "ficha-sino-inst-switches-caudal.pdf",
+      "pdfSha256": "25a45e1b39640d6257e05c7568a6093b74eddff02304d9934dc7a311dddc62c4"
+    },
+    "sino-inst-radar-80-ghz": {
+      "file": "ficha-sino-inst-radar-80-ghz.pdf",
+      "pdfSha256": "98151f27a5ceb5a9dd5413c129f5fe6cc9ee42f146cb3e6c5dfe9a249efc114e"
+    },
+    "sino-inst-radar-26-ghz": {
+      "file": "ficha-sino-inst-radar-26-ghz.pdf",
+      "pdfSha256": "b1cbd61ea7473673d6159642714ce3b8d1faee6477d0fdc2db604a0c2e0b6a9f"
+    },
+    "sino-inst-radar-guiado": {
+      "file": "ficha-sino-inst-radar-guiado.pdf",
+      "pdfSha256": "37131a153d12c7d73f4f103c9baf38fd6d9aa6b9b0a9015371e9300992665602"
+    },
+    "sino-inst-radar-agua": {
+      "file": "ficha-sino-inst-radar-agua.pdf",
+      "pdfSha256": "d7af0b0820004da797de22b0d6b7ccc4d2fbf9cf0a27dd389f2fd5164ad5750c"
+    },
+    "sino-inst-radar-3d-silos": {
+      "file": "ficha-sino-inst-radar-3d-silos.pdf",
+      "pdfSha256": "b35ec585561a4271bd638f5f936e662ea92ce04adc57fff0094fea7d99ceff33"
+    },
+    "sino-inst-nivel-ultrasonico": {
+      "file": "ficha-sino-inst-nivel-ultrasonico.pdf",
+      "pdfSha256": "243379cce7b27976ba073c0980a39add078dc1ad0c5b215825d55fa561460cc6"
+    },
+    "sino-inst-nivel-hidrostatico": {
+      "file": "ficha-sino-inst-nivel-hidrostatico.pdf",
+      "pdfSha256": "d664bfaeadcfe132be97705a8cb5a162a706852ba538b959f4cc2dfc1b8fa664"
+    },
+    "sino-inst-nivel-magnetostrictivo": {
+      "file": "ficha-sino-inst-nivel-magnetostrictivo.pdf",
+      "pdfSha256": "84f2a395e9eb09097c63fa95b48f45a3faf4466b2833e02f9e715b022f46d989"
+    },
+    "sino-inst-nivel-flotador": {
+      "file": "ficha-sino-inst-nivel-flotador.pdf",
+      "pdfSha256": "b5b469c3afb26f075218533d6e66a760e0fa18f0ea96b478b42588e31433f7ad"
+    },
+    "sino-inst-nivel-capacitivo": {
+      "file": "ficha-sino-inst-nivel-capacitivo.pdf",
+      "pdfSha256": "905fce142f8e2fa5fd321ad08d353c9def0d371fe6d6e360a7a35e9db534914d"
+    },
+    "sino-inst-switches-horquilla": {
+      "file": "ficha-sino-inst-switches-horquilla.pdf",
+      "pdfSha256": "a32ae770479d77ed0857da3e76863a42f120e28ca20bae4b34b427f86dd305c0"
+    },
+    "sino-inst-switches-paleta": {
+      "file": "ficha-sino-inst-switches-paleta.pdf",
+      "pdfSha256": "7af2f3ddd7a8bd28015b430cc2e0a809d0d2e0893f040e26e3c68633817dd56b"
+    },
+    "sino-inst-switches-admitancia": {
+      "file": "ficha-sino-inst-switches-admitancia.pdf",
+      "pdfSha256": "9df8941104fd84919d3c6856afa5ac7618d3841d577f3ad336ca807b6556d52b"
+    },
+    "sino-inst-switches-capacitivos": {
+      "file": "ficha-sino-inst-switches-capacitivos.pdf",
+      "pdfSha256": "ccc384dbbbe86673d8efdb548772ca77e9c24f04ead5f0eba4f5f302fa345b98"
+    },
+    "sino-inst-switches-conductivos": {
+      "file": "ficha-sino-inst-switches-conductivos.pdf",
+      "pdfSha256": "5221567c42fb4ebfce48d0a701f6f06bc83361ab053c475e1449a362feb05b1c"
+    },
+    "sino-inst-presion-industrial": {
+      "file": "ficha-sino-inst-presion-industrial.pdf",
+      "pdfSha256": "d7615d8f17e015b2d8f66b199a22042688e0468a62ff2a0a9909a6f489e336c0"
+    },
+    "sino-inst-presion-diferencial": {
+      "file": "ficha-sino-inst-presion-diferencial.pdf",
+      "pdfSha256": "48a31fb748c92a5359650c37893beaec99d20d1d85eca29806751944fd3c167a"
+    },
+    "sino-inst-presion-absoluta": {
+      "file": "ficha-sino-inst-presion-absoluta.pdf",
+      "pdfSha256": "7f92bbee6465fb8fd43122d30f162aaabc7d15d405319fa08603b942739bdfda"
+    },
+    "sino-inst-termocuplas": {
+      "file": "ficha-sino-inst-termocuplas.pdf",
+      "pdfSha256": "329185aca4cfce73afa936a4eb9a6b0f4f8ba4a117cb01bb45ed1d92bc725c8d"
+    },
+    "sino-inst-rtd": {
+      "file": "ficha-sino-inst-rtd.pdf",
+      "pdfSha256": "e97d59b88e5813b823a69ab9c847ee80f05ada1dcf6784203e8646b9690bbd62"
+    },
+    "sino-inst-densidad": {
+      "file": "ficha-sino-inst-densidad.pdf",
+      "pdfSha256": "49e7fde6a16c23bf28de65b6eb5594ecf2783e0a208bf998e6574596e05ed08a"
+    },
+    "sino-inst-concentracion": {
+      "file": "ficha-sino-inst-concentracion.pdf",
+      "pdfSha256": "7f2b41294ca4b1f11c3b9dcdb96b6fce53cc6e7a206aba97643d1e4b232612ca"
+    },
+    "sino-inst-viscosidad": {
+      "file": "ficha-sino-inst-viscosidad.pdf",
+      "pdfSha256": "7022db3d5f03914b06b8cf1169338caf3ca750314bad1250f5fbdc8daba08972"
+    },
+    "sino-inst-torque-dinamico": {
+      "file": "ficha-sino-inst-torque-dinamico.pdf",
+      "pdfSha256": "ca68598336e6c16bdb1140aad7a8f99b85ddf15902bd9dff0468754f10a0db11"
+    },
+    "sino-inst-torque-reaccion": {
+      "file": "ficha-sino-inst-torque-reaccion.pdf",
+      "pdfSha256": "2798f84323aad3d13e5b1b389addcdb345612e27a8618d0c6c0b6264b2fbc96b"
+    },
+    "endress-promass-f300": {
+      "file": "ficha-endress-promass-f300.pdf",
+      "pdfSha256": "cee8260e28412eb154e9f78a063adf5746bfe95e461ea3ed2228110b9413c0c8"
+    },
+    "endress-prowirl-f200": {
+      "file": "ficha-endress-prowirl-f200.pdf",
+      "pdfSha256": "0a038a63347740ede7f985ae574cee3d76193bf74edf723e23f0e3c5dc93bcff"
+    },
+    "endress-t-mass-i300": {
+      "file": "ficha-endress-t-mass-i300.pdf",
+      "pdfSha256": "86ddfe78d615a1be5b3d1850dcb7fb340f1dda4c2b0d112cffd6d6ede54572da"
+    },
+    "endress-prosonic-p500": {
+      "file": "ficha-endress-prosonic-p500.pdf",
+      "pdfSha256": "17cbcc9dbbafcb668b5ff9a7392e0e863096b09edf48af4e0dc9e00ea3258f5b"
+    },
+    "endress-micropilot-fmr60b": {
+      "file": "ficha-endress-micropilot-fmr60b.pdf",
+      "pdfSha256": "0eb6b3d4fdc8231c4221d09760773342ffc3b673e69ab84f63952026b9624707"
+    },
+    "endress-levelflex-fmp51": {
+      "file": "ficha-endress-levelflex-fmp51.pdf",
+      "pdfSha256": "0bfb153af1e01eb63dfaae737221652ce06e98f89a96b30b380d1b5bbd920919"
+    },
+    "endress-cerabar-pmp51b": {
+      "file": "ficha-endress-cerabar-pmp51b.pdf",
+      "pdfSha256": "ce044e8bf93f4a186f0a065a035c79080e2cf4f1dd18e1d23f1a385d8615f0c8"
+    },
+    "endress-deltabar-pmd75b": {
+      "file": "ficha-endress-deltabar-pmd75b.pdf",
+      "pdfSha256": "2d59221f4978f671f36c436b135ff6173a60d8b359ffd7c557ec74a95b145384"
+    },
+    "endress-memosens-cps11e": {
+      "file": "ficha-endress-memosens-cps11e.pdf",
+      "pdfSha256": "8af044017f1a0275515490c0d5a875c15ba5022b823e2bafdae047fcc8eab37c"
+    },
+    "endress-memosens-cls82e": {
+      "file": "ficha-endress-memosens-cls82e.pdf",
+      "pdfSha256": "15f602b129cbd06aa8a34f206f676010285d06771891102500aacbb886cfd8e9"
+    },
+    "endress-oxymax-cos61d": {
+      "file": "ficha-endress-oxymax-cos61d.pdf",
+      "pdfSha256": "84adea9433db0dea4b51932ea31ca7bd692a9f651a1db80186660ac4d1104fd1"
+    },
+    "endress-turbimax-cus52d": {
+      "file": "ficha-endress-turbimax-cus52d.pdf",
+      "pdfSha256": "d40f4bffcfc3cb5b4a385cfb818d64953a8a6cd6b3a2e3522723a5bb2df96b4b"
+    },
+    "endress-memosens-ccs51e": {
+      "file": "ficha-endress-memosens-ccs51e.pdf",
+      "pdfSha256": "ffc7e415c3406b0061bf3471538f8e1fe68a58ef750038853816449c18752413"
+    },
+    "siemens-sitrans-fm": {
+      "file": "ficha-siemens-sitrans-fm.pdf",
+      "pdfSha256": "21cc1249e97dbc8b9c66a38840734edf9cd9552a68c482fac2a04679714c5446"
+    },
+    "siemens-sitrans-fc": {
+      "file": "ficha-siemens-sitrans-fc.pdf",
+      "pdfSha256": "f8ab1fd75f0ea40bd5944fab2936c86b7d9f8324b733fab5df593b44cd6d7cdd"
+    },
+    "siemens-sitrans-fs230": {
+      "file": "ficha-siemens-sitrans-fs230.pdf",
+      "pdfSha256": "e3bf46a36447c0172ce0d78ffba444cf941151bd980199ab3c55c36da4bd6759"
+    },
+    "siemens-sitrans-fx330": {
+      "file": "ficha-siemens-sitrans-fx330.pdf",
+      "pdfSha256": "6c7195aae46f97e3784a78c504258bb1c29a8028dd93b987863fc919ac39187f"
+    },
+    "siemens-unified-basic": {
+      "file": "ficha-siemens-unified-basic.pdf",
+      "pdfSha256": "78d4b4902a6ee68b7d1daa4f76c5f0b51364abd59044f6844be22ffa3899ae25"
+    },
+    "siemens-unified-comfort": {
+      "file": "ficha-siemens-unified-comfort.pdf",
+      "pdfSha256": "c1109da7ddcb4c8ec2ebe4aba4f96629933d46fab9a0833a3412126fbf0c53ac"
+    },
+    "siemens-simatic-s7-1500": {
+      "file": "ficha-siemens-simatic-s7-1500.pdf",
+      "pdfSha256": "8b559066a03c225956ccdaeb35d11a5afa85bfc18e5e6f6847188c827ec19a09"
+    },
+    "siemens-sitrans-p320-p420": {
+      "file": "ficha-siemens-sitrans-p320-p420.pdf",
+      "pdfSha256": "6cbf48bc121b8b02b84628b2cc817fa92167220dd78752473a8f1c8039cb08f1"
+    },
+    "siemens-sitrans-lr500": {
+      "file": "ficha-siemens-sitrans-lr500.pdf",
+      "pdfSha256": "4ef95f05bf872840921d61510dd78c9afa95004d7211423fff2617058d85224c"
+    },
+    "yokogawa-admag-axg": {
+      "file": "ficha-yokogawa-admag-axg.pdf",
+      "pdfSha256": "eb5ac057ac20ac2025cd1773875b3fce92e7d0e657e029c02a1540c7885b746b"
+    },
+    "yokogawa-rotamass": {
+      "file": "ficha-yokogawa-rotamass.pdf",
+      "pdfSha256": "fbb038def35f2b601f3040f993f71f1527e7209a930e303bc79d4db182801296"
+    },
+    "yokogawa-vy": {
+      "file": "ficha-yokogawa-vy.pdf",
+      "pdfSha256": "d53498e246edeb55f2a043b86692bdff966b62e6d5c10ee72451f9cdbca01adb"
+    },
+    "yokogawa-flxa402": {
+      "file": "ficha-yokogawa-flxa402.pdf",
+      "pdfSha256": "3f4d2df6d4a2d861fdd6c7afbc8d68ae389be1e359e46f63d91edace8e403e10"
+    },
+    "yokogawa-flxa402t": {
+      "file": "ficha-yokogawa-flxa402t.pdf",
+      "pdfSha256": "b09e3b275bef7e52657f043093b34c7aa4b5f18aab5e05dab275bf81a3b1a597"
+    },
+    "schneider-m241": {
+      "file": "ficha-schneider-m241.pdf",
+      "pdfSha256": "56a9e068da0555d63d707cd2c15ef416e15e5779d2e5745a638b0c1c05c1c14d"
+    },
+    "schneider-m251": {
+      "file": "ficha-schneider-m251.pdf",
+      "pdfSha256": "3311025ae9de286360ad57a4b690c1c7d005538b067cc52447e226ac58a973f9"
+    },
+    "schneider-m262": {
+      "file": "ficha-schneider-m262.pdf",
+      "pdfSha256": "1c91966a6734bd40d4acfc283621a6c62d2216805557ab70180e0005f201c5b7"
+    },
+    "schneider-harmony-gtu": {
+      "file": "ficha-schneider-harmony-gtu.pdf",
+      "pdfSha256": "6f79f3f4aa83a4e3c406ae7c78b82fe7c34089e5d379df1e54db9b3badfad8d2"
+    },
+    "siemens-sitrans-lr100": {
+      "file": "ficha-siemens-sitrans-lr100.pdf",
+      "pdfSha256": "62889a3deaf4c0671c578a3bab9f60dbcb849f140e5e7897f7d05d7b1696e636"
+    },
+    "sino-inst-mfc": {
+      "file": "ficha-sino-inst-mfc.pdf",
+      "pdfSha256": "b98d8a2f29fb14fe91ecbfedaa2055621d736afef89c0382b6aa3a23c0d06f7b"
+    },
+    "sino-inst-caudal-solidos": {
+      "file": "ficha-sino-inst-caudal-solidos.pdf",
+      "pdfSha256": "fcab4615cec5551eefe3c6544bbe8bfc0cb672dd6f874e9497d9f1f4898568f1"
+    },
+    "yokogawa-ejx110a": {
+      "file": "ficha-yokogawa-ejx110a.pdf",
+      "pdfSha256": "e3800c36d5fc5c0c0501edf1d09f2dca92ed0f5bdedbafbeb65048f16e126456"
+    },
+    "yokogawa-ejx510a": {
+      "file": "ficha-yokogawa-ejx510a.pdf",
+      "pdfSha256": "94722f802a2ca6d6aec772b7236a4ba5dcb90df8f6da015a849084eafef13765"
     }
   },
   "generator": "scripts/create-instrumental-sheets.py"

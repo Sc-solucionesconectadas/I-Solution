@@ -1,0 +1,52 @@
+{
+  "brands": [
+    {
+      "id": "endress-hauser",
+      "name": "Endress+Hauser",
+      "logo": "endress-hauser.svg",
+      "tone": "light",
+      "focus": "Instrumentación de procesos",
+      "url": "https://www.endress.com/en/field-instruments-overview"
+    },
+    {
+      "id": "siemens",
+      "name": "Siemens",
+      "logo": "siemens.webp",
+      "tone": "light",
+      "focus": "Instrumentación y automatización",
+      "url": "https://www.siemens.com/en-us/products/sitrans/"
+    },
+    {
+      "id": "trumen",
+      "name": "Trumen",
+      "logo": "trumen.png",
+      "tone": "light",
+      "focus": "Detección y medición de nivel",
+      "url": "https://trumen.in/"
+    },
+    {
+      "id": "yokogawa",
+      "name": "Yokogawa",
+      "logo": "yokogawa.svg",
+      "tone": "dark",
+      "focus": "Medición y control de procesos",
+      "url": "https://www.yokogawa.com/solutions/products-and-services/measurement/"
+    },
+    {
+      "id": "schneider-electric",
+      "name": "Schneider Electric",
+      "logo": "schneider-electric.svg",
+      "tone": "light",
+      "focus": "PLC y pantallas HMI",
+      "url": "https://www.se.com/ar/es/"
+    },
+    {
+      "id": "sino-inst",
+      "name": "Sino-Inst",
+      "logo": "sino-inst.webp",
+      "tone": "light",
+      "focus": "Instrumentos de medición",
+      "url": "https://sino-inst.com/"
+    }
+  ]
+}

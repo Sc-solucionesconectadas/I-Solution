@@ -1,5 +1,9 @@
 # Comandos
 
+## Revisión de navegación21
+
+Desde I-Solution: `npm run check`, `npm test`, `npm run build:demo`. Local seguro sin correo: `node --input-type=module -e "import {buildInstrumental} from './scripts/build-instrumental.mjs'; console.log(await buildInstrumental({contactEndpoint:'',requireDocuments:true}));"` y `npm run preview`. Abrir `http://127.0.0.1:4175/instrumental-solution/productos/`. Build:demo solo prepara artefactos; no despliega. Generadores PDF: usar entorno privado ya instalado del panel; ver [[21_Catalogo_por_Categorias_Implementado]].
+
 ## Revisión local con envío apagado — 02/11/2026
 
 Para revisar los cambios de [[14_Funcionalidad_y_Calidad]] conservando la restricción de correo, generar primero una copia con endpoint vacío y luego servirla:

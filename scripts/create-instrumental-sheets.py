@@ -5,6 +5,7 @@ Uses the existing development-only PDF environment; no website dependency.
 from pathlib import Path
 import sys, json, hashlib, shutil
 from html import escape
+from inline_pdf import inline, register_family
 
 ROOT=Path(__file__).resolve().parent.parent
 from reportlab.lib import colors
@@ -21,12 +22,14 @@ CONTENT=ROOT/'content/instrumental-solution'
 ASSETS=ROOT/'apps/instrumental-solution/assets'
 OUT=ROOT/'output/pdf/fichas'; OUT.mkdir(parents=True,exist_ok=True)
 FONT_DIR=ROOT/'.qa/isolution-55/fonts'; FONT_DIR.mkdir(parents=True,exist_ok=True)
-for name in ['Regular','SemiBold']:
+for name in ['Regular','SemiBold','Italic','SemiBoldItalic']:
     target=FONT_DIR/f'Poppins-{name}.ttf'
     font=SourceFont(ROOT/f'apps/instrumental-solution/assets/fonts/Poppins-{name}.woff2');font.flavor=None;font.save(target)
     pdfmetrics.registerFont(TTFont(name,str(target)))
+register_family(pdfmetrics)
 
 products=json.loads((CONTENT/'productos.json').read_text(encoding='utf-8'))
+products = [p for p in products if p.get('active', True)]
 registry=json.loads((CONTENT/'imagenes.json').read_text(encoding='utf-8'))
 site=json.loads((CONTENT/'site.json').read_text(encoding='utf-8'))
 INK,BLUE,NAVY,MUTED,LINE=[colors.HexColor(v) for v in ['#0c1f36','#245e9a','#102b47','#50657c','#d2e0ec']]
@@ -39,16 +42,16 @@ styles={
  'value':ParagraphStyle('value',fontName='Regular',fontSize=9,leading=14,textColor=MUTED),
  'note':ParagraphStyle('note',fontName='Regular',fontSize=8,leading=12,textColor=MUTED,spaceBefore=12,spaceAfter=8),
 }
-def P(value,style='body'):
+def P(value,style='body',markup=False):
     clean=str(value).replace('\u2013','-').replace('\u2014','-').replace('\u2212','-')
-    return Paragraph(escape(clean),styles[style])
+    return Paragraph(clean if markup else escape(clean),styles[style])
 
 def page_frame(canvas,doc):
     w,h=A4;canvas.saveState()
     canvas.setFillColor(NAVY);canvas.rect(0,h-68,w,68,stroke=0,fill=1)
     canvas.drawImage(str(ASSETS/'source/logo.png'),42,h-55,width=156,height=44,preserveAspectRatio=True,mask='auto')
     canvas.setFillColor(colors.HexColor('#d4e5f3'));canvas.setFont('Regular',8)
-    canvas.drawRightString(w-42,h-36,('Ficha de línea' if getattr(doc,'is_line',False) else 'Ficha de producto')+' | i-Solution')
+    canvas.drawRightString(w-42,h-36,'Instrumentación y control | i-Solution')
     canvas.setStrokeColor(LINE);canvas.line(42,46,w-42,46)
     canvas.setFillColor(MUTED);canvas.setFont('Regular',7.5)
     canvas.drawString(42,30,f"{site['email']} | {site['phone']}")
@@ -65,21 +68,24 @@ for product in products:
     with SourceImage.open(imagepath) as image: iw,ih=image.size
     scale=min(110/iw,110/ih)
     picture=Image(str(imagepath),width=iw*scale,height=ih*scale)
-    intro=[P(product['name'],'title'),P(product['series'],'series'),P(product['summary'])]
+    intro=[P(inline(product,'name'),'title',True),P(inline(product,'series'),'series',True),P(inline(product,'summary'),markup=True)]
     hero=Table([[intro,picture]],colWidths=[345,166])
     hero.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'MIDDLE'),('LEFTPADDING',(0,0),(-1,-1),0),('RIGHTPADDING',(0,0),(0,0),22),('BOTTOMPADDING',(0,0),(-1,-1),8)]))
     story=[hero,P('Tecnologías y opciones de la línea' if doc.is_line else 'Características técnicas','heading')]
-    rows=[[P(k.replace(' publicada',''),'key'),P(v,'value')] for k,v in product['parameters']]
+    rows=[[P(inline(product,f'parameters.{i}.0').replace(' publicada',''),'key',True),P(inline(product,f'parameters.{i}.1'),'value',True)] for i,(k,v) in enumerate(product['parameters'])]
     specs=Table(rows,colWidths=[165,346],hAlign='LEFT')
-    specs.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LINEBELOW',(0,0),(-1,-1),.4,LINE),('BACKGROUND',(0,0),(0,-1),colors.HexColor('#f0f6fa')),('LEFTPADDING',(0,0),(-1,-1),11),('RIGHTPADDING',(0,0),(-1,-1),11),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5)]))
-    story+=[specs,P(product['selectionNote'],'note')]
+    specs.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('LINEBELOW',(0,0),(-1,-1),.4,LINE),('BACKGROUND',(0,0),(0,-1),colors.HexColor('#f0f6fa')),('LEFTPADDING',(0,0),(-1,-1),11),('RIGHTPADDING',(0,0),(-1,-1),11),('TOPPADDING',(0,0),(-1,-1),4),('BOTTOMPADDING',(0,0),(-1,-1),4)]))
+    story+=[specs,P(inline(product,'selectionNote'),'note',True)]
+    if product.get('measurement'):
+        story.append(P('<b>Funcionamiento:</b> '+inline(product,'measurement.principle'),markup=True))
     if product.get('applications'):
         story.append(P('Aplicaciones de la línea' if doc.is_line else 'Aplicaciones del instrumento','heading'))
-        for text in product['applications']:story.append(P('- '+text))
+        for i,text in enumerate(product['applications']):story.append(P('- '+inline(product,f'applications.{i}'),markup=True))
     if product.get('source'):
-        story.append(Paragraph('Más información: <link href="'+escape(product['source'],quote=True)+'" color="#245e9a">página del producto en i-Solution</link>',styles['note']))
+        label='página original de i-Solution' if '://solution.com.ar/' in product['source'] else 'información del fabricante'
+        story.append(Paragraph('Más información: <link href="'+escape(product['source'],quote=True)+'" color="#245e9a">'+label+'</link>',styles['note']))
     doc.build(story,onFirstPage=page_frame,onLaterPages=page_frame)
-    if doc.page!=1:raise ValueError(f'La ficha requiere una revisión de diseño: {product["slug"]} ocupa {doc.page} páginas.')
+    if doc.page>3:raise ValueError(f'La ficha requiere una revisión de diseño: {product["slug"]} ocupa {doc.page} páginas.')
     shutil.copyfile(target,ASSETS/'documents'/name)
     metadata[product['slug']]={'file':name,'pdfSha256':hashlib.sha256(target.read_bytes()).hexdigest()}
 

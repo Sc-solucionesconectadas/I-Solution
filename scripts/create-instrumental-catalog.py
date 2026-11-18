@@ -10,6 +10,7 @@ import hashlib
 import shutil
 from io import BytesIO
 from html import escape
+from inline_pdf import inline, register_family
 
 ROOT = Path(__file__).resolve().parent.parent
 from reportlab.pdfgen import canvas
@@ -30,14 +31,16 @@ WEB = ROOT / 'apps/instrumental-solution/assets/documents/catalogo-isolution.pdf
 OUTPUT.parent.mkdir(parents=True, exist_ok=True)
 FONT_DIR = ROOT / '.qa/isolution-53/fonts'
 FONT_DIR.mkdir(parents=True, exist_ok=True)
-for name, filename in [('Regular', 'Poppins-Regular'), ('SemiBold', 'Poppins-SemiBold')]:
+for name, filename in [('Regular', 'Poppins-Regular'), ('SemiBold', 'Poppins-SemiBold'), ('Italic', 'Poppins-Italic'), ('SemiBoldItalic', 'Poppins-SemiBoldItalic')]:
     target = FONT_DIR / f'{filename}.ttf'
     font = SourceFont(ROOT / 'apps/instrumental-solution/assets/fonts' / f'{filename}.woff2')
     font.flavor = None
     font.save(target)
     pdfmetrics.registerFont(TTFont(name, str(target)))
+register_family(pdfmetrics)
 
 products = json.loads((CONTENT / 'productos.json').read_text(encoding='utf-8'))
+products = [p for p in products if p.get('active', True)]
 site = json.loads((CONTENT / 'site.json').read_text(encoding='utf-8'))
 institution = json.loads((CONTENT / 'institucional.json').read_text(encoding='utf-8'))
 images = json.loads((CONTENT / 'imagenes.json').read_text(encoding='utf-8'))
@@ -52,8 +55,8 @@ c.setAuthor('i-Solution')
 c.setSubject('Catálogo de instrumentos y servicios técnicos')
 
 
-def text(value, x, top, width, size=10.4, color=MUTED, bold=False, leading=None):
-    value = escape(str(value)).replace('\u2013', '-').replace('\u2014', '-').replace('\u2212', '-')
+def text(value, x, top, width, size=10.4, color=MUTED, bold=False, leading=None, markup=False):
+    value = (str(value) if markup else escape(str(value))).replace('\u2013', '-').replace('\u2014', '-').replace('\u2212', '-')
     style = ParagraphStyle('copy', fontName='SemiBold' if bold else 'Regular', fontSize=size,
                            leading=leading or size * 1.5, textColor=color, spaceAfter=0)
     paragraph = Paragraph(value, style)
@@ -107,8 +110,9 @@ text('industrial.', M, H - 211, W - 2*M, 36, HexColor('#b6dcf5'), True)
 text('Equipos de medición, documentación y servicios para tus procesos.', M, H - 278,
      W - 2*M - 40, 13, HexColor('#c8ddea'))
 cell_w = (W - 2*M - 24) / 3
-cover_slugs=['caudalimetros-electromagneticos','radar-nivel-80-120-ghz','transmisor-presion-smart','analizadores-liquidos','analizadores-cloro-libre','programador-siemens']
-cover_products=[next(p for p in products if p['slug']==slug) for slug in cover_slugs]
+cover_slugs=['sino-inst-coriolis-serie-u','trumen-lsv','yokogawa-ejx530a','endress-liquiline-cm442','siemens-simatic-s7-1200-g2','schneider-harmony-st6']
+preferred=[p for slug in cover_slugs for p in products if p['slug']==slug]
+cover_products=(preferred+[p for p in products if p not in preferred])[:6]
 for i, product in enumerate(cover_products):
     col, row = i % 3, i // 3
     x, y = M + col * (cell_w + 12), 292 - row * 176
@@ -117,7 +121,7 @@ for i, product in enumerate(cover_products):
     image(SOURCE / images[product['image']], x + 13, y + 42, cell_w - 26, 102)
     label = product['name'].replace(' electromagnético', '').replace(' Smart', '')
     text(label, x + 12, y + 36, cell_w - 24, 9.2, INK, True, 12)
-text('Caudal | Nivel | Presión | Análisis | Configuración', M, 91, W - 2*M, 10.5, HexColor('#c8ddea'))
+text('Caudal | Nivel | Presión | Análisis | Control | Temperatura | Densidad | Torque', M, 91, W - 2*M, 10, HexColor('#c8ddea'))
 footer(1, dark=True)
 c.showPage()
 
@@ -130,13 +134,14 @@ def product_block(product, top, height=262):
     image(SOURCE / images[product['image']], M + 12, top - 204, 142, 174)
     text(product['brand'] or product['family'], M + 16, bottom + 36, 140, 9, BLUE, True)
     x, width = M + 175, W - 2*M - 193
-    y = text(product['name'], x, top - 18, width, 15.5, INK, True, 20)
-    y = text(('Línea de productos' if product.get('kind')=='line' else product['series']), x, y - 5, width, 10, BLUE, True) - 12
-    y = text(product['summary'], x, y, width, 9.3, MUTED, leading=13.5) - 12
+    y = text(inline(product,'name'), x, top - 18, width, 15.5, INK, True, 20, markup=True)
+    y = text(('Línea de productos' if product.get('kind')=='line' else inline(product,'series')), x, y - 5, width, 10, BLUE, True, markup=True) - 12
+    y = text(inline(product,'summary'), x, y, width, 9.3, MUTED, leading=13.5, markup=True) - 12
     specs = [row for row in product['parameters'] if row[0]!='Variable'][:3]
     for key, value in specs:
-        label = key.replace(' publicada', '')
-        y = text(f'{label}: {value}', x, y, width, 8.8, MUTED, leading=12) - 5
+        i=product['parameters'].index([key,value])
+        label=inline(product,f'parameters.{i}.0').replace(' publicada', '')
+        y = text(label+': '+inline(product,f'parameters.{i}.1'), x, y, width, 8.8, MUTED, leading=12, markup=True) - 5
     if y < bottom + 16:
         raise ValueError(f'Product block overflows: {product["slug"]}')
 
@@ -147,9 +152,13 @@ family_copy={
     'Presión':('Medición de presión.','Transmisores inteligentes y configuraciones para sistemas de control.'),
     'Análisis de líquidos':('Análisis de líquidos.','Sensores, transmisores y análisis de cloro para procesos y agua.'),
     'Configuración':('Configuración de instrumentos.','Herramientas para equipos compatibles y asistencia para la selección.'),
+    'Automatización':('Control y visualización.','Controladores PLC y pantallas HMI para equipos y procesos.'),
+    'Temperatura':('Medición de temperatura.','Termocuplas y sensores resistivos seleccionados para cada montaje.'),
+    'Densidad y concentración':('Densidad y concentración.','Seguimiento de densidad, concentración y viscosidad según el producto.'),
+    'Torque':('Medición de torque.','Sensores de par dinámico o de reacción para máquinas y ensayos.'),
 }
-unknown_families={p['family'] for p in products}-set(family_copy)
-if unknown_families:raise ValueError(f'Agregar al diseño del catálogo las familias: {sorted(unknown_families)}')
+for product in products:
+    family_copy.setdefault(product['family'],(product['family']+'.','Instrumentos y opciones de selección para tu aplicación.'))
 number=2
 for family,(title,subtitle) in family_copy.items():
     entries=[p for p in products if p['family']==family]
@@ -171,8 +180,8 @@ header('Servicios para tus instrumentos.', 'Calibración, mantenimiento, asisten
 y = H - 198
 for service in institution['services']:
     image(SOURCE / copy['images'].get('servicio-'+service['id'], images[service['image']]), M, y - 53, 53, 53)
-    text(service['name'], M + 72, y, W - 2*M - 72, 12, INK, True)
-    text(service['summary'], M + 72, y - 23, W - 2*M - 72, 9.3, MUTED, leading=13)
+    text(inline(service,'name'), M + 72, y, W - 2*M - 72, 12, INK, True, markup=True)
+    text(inline(service,'summary'), M + 72, y - 23, W - 2*M - 72, 9.3, MUTED, leading=13, markup=True)
     c.setStrokeColor(LINE)
     c.line(M, y - 68, W - M, y - 68)
     y -= 86
@@ -195,6 +204,6 @@ for product in products:
 for service in institution['services']:
     digest.update((SOURCE / copy['images'].get('servicio-'+service['id'], images[service['image']])).read_bytes())
 metadata = {'contentSha256': digest.hexdigest(), 'pdfSha256': hashlib.sha256(OUTPUT.read_bytes()).hexdigest(),
-            'pages': number, 'entries': len(products), 'lines': sum(p.get('kind')=='line' for p in products), 'date': '2026-11-01', 'generator': 'scripts/create-instrumental-catalog.py'}
+            'pages': number, 'entries': len(products), 'lines': sum(p.get('kind')=='line' for p in products), 'date': '2026-11-18', 'generator': 'scripts/create-instrumental-catalog.py'}
 (CONTENT / 'catalogo-pdf.json').write_text(json.dumps(metadata, indent=2) + '\n', encoding='utf-8')
 print(json.dumps({'output': str(OUTPUT), 'bytes': OUTPUT.stat().st_size, **metadata}))

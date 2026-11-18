@@ -1,5 +1,35 @@
 # i-Solution: repositorio independiente
 
+## Corrección25 y publicación autorizada26 — 2026-11-18
+
+Leer docs/obsidian/25_Catalogo_PDF_Directo_y_Foto_TFDP70.md y26_Actualizacion_Demo_Catalogo_Proveedores.md. Catálogo abre PDF directo en pestaña nueva desde Inicio/Instrumentos/footer, sin página intermedia; alias antiguo302 mediante _redirects. Foto TFDP70 corregida desde fotografía de ficha oficial, ficha y catálogo regenerados.164 HTML/200 PDF,39 tests/check y flujo privado correctos;155 registros/cuatro borradores preservados. Usuario autorizó expresamente publicar i-Solution en su demo existente: usar GitHub main → Worker isolution-demo y verificar resultado real26. Mantener noindex/endpoint vacío; no publicar panel, tocar LMR/DNS/cuentas/envíos. Restricciones anteriores de no publicar quedan superadas solo para esta actualización de demo autorizada.
+
+## Estado vigente24 — 2026-11-18
+
+Leer docs/obsidian/24_Ampliacion_Catalogo_Proveedores.md. Implementación local aprobada:98 altas,124 almacenadas/123 activas,26 originales intactas; ocho categorías,165 HTML/200 PDF y catálogo65 páginas. Trumen cubre18 entradas de nivel y siete de presión; Sino-Inst41 activas por familias/series, NO todos sus SKU/variantes.98 imágenes originales y64 documentos nuevos trazables en docs/diseno/instrumentos/2026-11-18/recursos-proveedores.json. measurement sigue por instrumento;14 esquemas nuevos compatibles con panel.39 pruebas web/25 panel, responsive/descargas reales y flujo aislado preview/PDF/ZIP correctos. Conciliación aditiva con respaldo:155 registros/4 borradores,57 previos idénticos. No reimportar toda la base. No publicar, enviar, activar, cambiar DNS/auth/cuentas o inventar stock/partner/variantes. Los estados23 y anteriores son históricos cuando difieren de esta implementación; foto propia sigue pendiente.
+
+## Auditoría de cobertura23 — 2026-11-17
+
+Leer docs/obsidian/23_Auditoria_Cobertura_Proveedores.md. Fuente actual26/activas25: cinco propias, nueve series de proveedores y once genéricas; cobertura comercial incompleta. Trumen nivel tiene18 entradas oficiales, solo LSV cargada;17 pendientes. Nuevo pedido incluye continuo Trumen además de Endress, PLC/HMI Siemens-Schneider y todas las familias Sino-Inst. Matriz por tecnología documentada; no inventar cruces marca/tecnología ni dar por cargados los candidatos. Solo auditoría/documentación, sin código/datos/PDF/DB/publicación/envíos. Portada22 sigue vigente; no refrescar huellas del panel por cambios documentales.
+
+## Portada vigente22 — 2026-11-17
+
+Leer docs/obsidian/22_Portada_Instrumentos_Comercial.md: hero completo, logos sin subtítulos con autoplay4s/flechas/zoom y pausa de interacción/reduced-motion, categorías grandes uniformes, tres destacados activos y ayuda visual. Buscador retirado de portada; interiores intactos.35 tests/check/build:demo y flujo privado correctos; huellas del panel actualizadas preservando57 registros/cuatro borradores. Datos/fotos/PDF sin cambios; no publicar/enviar ni tocar cuentas/credenciales. Actualiza el enfoque compacto/manual de21 para la portada.
+
+## Estado vigente21 — 2026-11-17
+
+Implementación local aprobada de plan20: leer docs/obsidian/21_Catalogo_por_Categorias_Implementado.md. Directorio de cinco categorías con Ver más y carrusel manual; listados paginados9, filtros y regreso conservado. Pantallas y control incluye ambos PLC. Fuente26/activos25: programador-siemens oculto reversible;43 páginas/38 PDF/catálogo17 páginas. Panel reconciliado con backup:57 registros/4 borradores intactos.34+25 tests/flujo privado correctos; sin push/deploy/emails/DNS. Prohibiciones de solo análisis20/19 y estados anteriores son históricos cuando contradicen esta implementación; nuevos SKU/Delta/foto propia siguen pendientes.
+
+- Plan20 del17/11/2026: SOLO propuesta de reorganización y dos mockups; leer docs/obsidian/20_Plan_Navegacion_Catalogo_por_Categorias.md. Entrada con marcas/cinco familias → categoría paginada9 → ficha actual. Sin código, datos, PDF, fotos de producción o panel modificados. Renders generados de diseño no son fotos técnicas; usar originales en implementación. Plan19 comercial pendiente, no aplicar retiros/HMI/Delta por preparar maquetas. No publicar/envíos/DNS.
+
+- Plan19 del17/11/2026: SOLO investigación y plan tras llamada; leer docs/obsidian/19_Plan_Catalogo_Llamada_Cliente.md. Usuario confirmó Endress+Hauser para nivel continuo y foto del caudalímetro propio sin cabezal. Retiro del programador pendiente de ejecución; HMI prioritaria, PLC/módulos/Delta por confirmar. Comparadas26 entradas y fuentes oficiales, sin cambiar código/datos/PDF/panel o publicar. No tratar candidatos del fabricante como portafolio/stock confirmado ni aplicar este plan sin siguiente instrucción.
+
+- Etapa18 local16/11/2026 vigente: catálogo ampliado a26 entradas (6 configuraciones/20 líneas),35 páginas/39 PDF. Leer docs/obsidian/18_Instrumentos_Proveedores_y_Funcionamiento.md. Sustituye la cuadrícula global17: measurement pertenece a cada instrumento y se edita en el panel independiente. Nueve series de seis proveedores, fotos/documentos oficiales, filtros dinámicos categoría/marca/tecnología y CTA contextual. Los17 registros anteriores conservan sus datos salvo measurement/brandId.30 tests/24 casos responsive y PDF correctos. No push/deploy/emails; demo/local con transporte vacío/noindex. La regla17 de no ampliar instrumentos/PDF quedó superada por esta autorización.
+
+- Etapa17 local16/11/2026: seis marcas comercializadas +13 tecnologías explicativas y consulta contextual. Leer docs/obsidian/17_Marcas_y_Guia_de_Medicion.md. No atribuir partner oficial/stock ni crear modelos sin evidencia. Mantener productos/PDF/fingerprints actuales; nuevas marcas/guía usan registro independiente.27 pruebas/16 casos responsive, sin publicación o envíos.
+
+- Etapa16 local: B/I opcional por rangos en equipo/servicios/instrumentos/documentos y PDF con texto escapado; fuentes Poppins Italic OFL. Mosaico/portada soportan instrumentos ocultos. Leer docs/obsidian/16_Formato_Editorial_y_PDF_Panel.md.22 tests/check/build:demo y flujo privado correctos. JSON/medios de catálogo/PDF actuales/correo intactos; sin publicación. Conservar formato de títulos de video/documentos y sus índices al añadir ficha automática.
+
 - Actualización pública verificada02/11/2026: mejoras14 publicadas con commitdbd21f0, check Cloudflare success y build7e5df2c2-e4e8-4a4c-b886-c6ee5f8a9659. Leer docs/obsidian/15_Actualizacion_Demo_Publica.md. Conservar noindex/endpoint vacío; cero envíos o activaciones. Material y puntos5/6 pendientes. El estado local histórico de14 queda superado por esta publicación.
 
 - Alcance vigente02/11/2026: implementados localmente los puntos 1–4; leer docs/obsidian/14_Funcionalidad_y_Calidad.md. Puntos 5/6 diferidos; no se hizo push/deploy en esta sesión. 22 pruebas correctas. Mantener envío vacío en copias de revisión; npm run dev puede usar el endpoint fuente. No hacer envíos/activaciones ni tratar la aceptación simulada como recepción real.
@@ -7,10 +37,10 @@
 - Fuente local: C:/Proyectos/I-Solution. Remoto autorizado: https://github.com/Scsolucionesconectadas/I-Solution. No modificar LMR, ERP o archivos Python ajenos.
 - Leer docs/obsidian/00_Contexto_Proyecto.md y 05_Pendientes.md. Actualizar notas relevantes con cada cambio.
 - apps/instrumental-solution y content/instrumental-solution contienen solo este sitio; fuentes/logos de agencia fueron independizados. shared/html.mjs es propio de este repo.
-- Repo público: no agregar presupuestos, .env, credenciales, consultas, adjuntos privados o procedencia interna que no sea publicable. Todos los23 PDF versionados son documentos públicos que ya se ofrecen en las fichas.
+- Repo público: no agregar presupuestos, .env, credenciales, consultas, adjuntos privados o procedencia interna que no sea publicable. Los39 PDF públicos ofrecidos en las fichas tienen procedencia documentada; los recursos privados/intermedios permanecen ignorados.
 - Demo autorizada: isolution-demo.scsolucionesconectadas.com.ar, Cloudflare Worker isolution-demo, configuración deploy/isolution-demo/wrangler.jsonc. Mantener noindex y transporte vacío en build:demo; nunca enviar pruebas o activaciones al cliente.
 - Destino institucional fuente info@solution.com.ar no implica recepción validada. No prometer Recibidos, no cambiar a un destinatario de LMR y no habilitar envío/indexación por una demo.
-- El catálogo tiene17 entradas: seis configuraciones y once líneas, no inventar SKU o extender especificaciones de un modelo a una familia. Contacto y navegación se generan desde la misma fuente.
+- El catálogo actual tiene124 entradas/123 activas; instrumentos, series y familias comerciales, sin inventar SKU ni extender especificaciones de un modelo a una familia. Contacto y navegación se generan desde la misma fuente. Los conteos de26/25 de notas anteriores son históricos.
 - JSON comercial y PDF preservan bytes mediante .gitattributes; fingerprints detectan documentos obsoletos. Tras cambios de datos/fotos, regenerar fichas/catálogo/portada y revisar. build:demo falla si la documentación está desactualizada.
 - npm run check, npm test y npm run build:demo antes de commit/push autorizado. Verificar check remoto y URL después. No force-push ni credenciales en el repo. Git usa helper local con sesión aislada de la cuenta autorizada, sin cambiar credenciales globales.
 - SOLUTION-GROUP conserva archivo/planning y procedencia interna. No editar su copia histórica como fuente activa ni mantener sincronización bidireccional silenciosa.

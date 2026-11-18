@@ -1,5 +1,9 @@
 # Publicación
 
+## 2026-11-18 — Actualización autorizada del catálogo
+
+El usuario autorizó publicar los avances locales y correcciones25 en la demo existente mediante main/Workers Builds. Alcance y resultado verificable en [[26_Actualizacion_Demo_Catalogo_Proveedores]]. Artefacto preparado164 HTML/200 PDF/671 archivos y _redirects para catálogo antiguo; correo vacío/noindex conservados. No se cambia DNS, plan, dominio definitivo o panel remoto.
+
 ## 02/11/2026 — Mejoras publicadas y verificadas
 
 Commitdbd21f0, check Cloudflare completed/success, build7e5df2c2-e4e8-4a4c-b886-c6ee5f8a9659. 142 recursos públicos correctos y revisión conjunta de62 casos responsive. Evidencia en [[15_Actualizacion_Demo_Publica]]. Transporte vacío/noindex conservados; sin correos/activaciones o cambios de DNS/plan/dominio final. Documentación de cierre sincronizada mediante un commit posterior sin cambios funcionales.
