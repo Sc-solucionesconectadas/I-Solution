@@ -1,5 +1,11 @@
 # Pendientes
 
+## Índice PDF27 — 2026-11-18
+
+- [x] Índice completo de123 entradas con números y enlaces correctos, marcadores y retorno; cinco páginas de índice/70 totales.
+- [x] Validar PDF real, muestra visual,39 pruebas y conservación del panel. [[27_Indice_Interactivo_Catalogo]].
+- [ ] Confirmar publicación autorizada y SHA-256 remoto del PDF actualizado.
+
 ## Corrección25 y actualización autorizada26 — 2026-11-18
 
 - [x] Abrir catálogo PDF directo en pestaña nueva desde todos los accesos; retirar página intermedia y conservar alias de compatibilidad.

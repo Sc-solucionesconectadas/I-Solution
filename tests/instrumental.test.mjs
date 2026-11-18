@@ -117,6 +117,9 @@ test('i-Solution construye páginas y documentos sin borrar el sitio hermano',as
     assert.equal(hash(output),hash(original));
   }
   const metadata=JSON.parse(await readFile(join(root,'content/instrumental-solution/catalogo-pdf.json'),'utf8'));
+  assert.ok(metadata.indexPages>0);
+  assert.deepEqual(Object.keys(metadata.productPages).sort(),visibleData.map(p=>p.slug).sort());
+  assert.ok(Object.values(metadata.productPages).every(number=>number>1+metadata.indexPages&&number<metadata.pages));
   const pdf=await readFile(join(outDir,'instrumental-solution/assets/documentos/catalogo-isolution.pdf'));
   assert.equal(hash(pdf),metadata.pdfSha256);
   await assert.rejects(access(join(outDir,'instrumental-solution/catalogo/index.html')),/ENOENT/);

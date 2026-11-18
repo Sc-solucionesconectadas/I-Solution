@@ -1,5 +1,9 @@
 # Bitácora
 
+## 2026-11-18 — Índice interactivo del catálogo
+
+Generador PDF calcula índice/páginas dinámicamente, añade enlaces y marcadores por instrumento/familia, y retorno desde contenido. PDF70 páginas,123 entradas, cinco páginas de índice; QA real138 enlaces/133 marcadores y39 pruebas correctas. Catálogo/portada/huellas actualizados; datos/fichas individuales intactos.155 registros/cuatro borradores conservados al refrescar panel. Publicación autorizada pendiente de verificación remota; [[27_Indice_Interactivo_Catalogo]].
+
 ## 2026-11-18 — Publicación efectiva del catálogo ampliado
 
 Subido commitf1090e0; Workers Builds1874e48c completed/success. Verificados669 recursos públicos,200 PDF con MIME correcto y cuatro hashes remotos idénticos; alias302/clic PDF en pestaña nueva, seis casos responsive, noindex y correo vacío correctos. Sin envíos, activaciones, DNS, dominio final o panel público. [[26_Actualizacion_Demo_Catalogo_Proveedores]]. Notas de cierre sincronizadas por commit documental posterior.

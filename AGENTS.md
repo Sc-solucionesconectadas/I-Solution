@@ -1,5 +1,9 @@
 # i-Solution: repositorio independiente
 
+## Índice PDF27 — 2026-11-18
+
+Leer docs/obsidian/27_Indice_Interactivo_Catalogo.md. Índice automático por instrumento/familia con enlaces internos, marca/serie/página, marcadores y vuelta al índice.123 entradas, cinco páginas de índice/70 totales; verificar con scripts/verify-instrumental-catalog.py. Catálogo/portada/metadata regenerados; datos y fichas intactos. Check/39 pruebas correctos. Usuario autoriza publicar i-Solution en su demo; LMR es tarea separada. Mantener noindex/transporte vacío y no enviar correos.
+
 ## Corrección25 y publicación autorizada26 — 2026-11-18
 
 Publicación efectiva verificada: commitf1090e0, Workers Builds1874e48c success,669 recursos remotos correctos y cuatro hashes PDF/foto idénticos.123 entradas activas/ocho categorías ya están en la demo; apertura PDF en nueva pestaña y TFDP70 completos comprobados. Ver resultado26; la condición local/no publicada de notas16–24 es histórica.
