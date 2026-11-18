@@ -2,6 +2,8 @@
 
 ## Correcciones25 y publicación26 — 2026-11-18
 
+**Demo actualizada y comprobada:** commitf1090e0, Workers Builds1874e48c success,669 recursos remotos correctos; catálogo PDF en pestaña nueva, TFDP70 completo y noindex/transporte vacío verificados. Publicados los avances locales16–25, con123 entradas activas. Evidencia en [[26_Actualizacion_Demo_Catalogo_Proveedores]].
+
 [[25_Catalogo_PDF_Directo_y_Foto_TFDP70]] retira la página intermedia de catálogo: botones/footer abren PDF en otra pestaña y alias antiguo redirige. Fotografía TFDP70 completa desde ficha oficial, PDFs regenerados.164 HTML/200 PDF;39 pruebas/check y QA responsive/flujo privado correctos. Usuario autorizó subir los avances locales a la demo existente; resultado efectivo en [[26_Actualizacion_Demo_Catalogo_Proveedores]]. Conservar endpoint vacío/noindex, sin envío ni cambios de dominio o panel remoto.
 
 ## Ampliación vigente24 — 2026-11-18

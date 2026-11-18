@@ -1,5 +1,9 @@
 # Bitácora
 
+## 2026-11-18 — Publicación efectiva del catálogo ampliado
+
+Subido commitf1090e0; Workers Builds1874e48c completed/success. Verificados669 recursos públicos,200 PDF con MIME correcto y cuatro hashes remotos idénticos; alias302/clic PDF en pestaña nueva, seis casos responsive, noindex y correo vacío correctos. Sin envíos, activaciones, DNS, dominio final o panel público. [[26_Actualizacion_Demo_Catalogo_Proveedores]]. Notas de cierre sincronizadas por commit documental posterior.
+
 ## 2026-11-18 — Catálogo PDF directo y TFDP70
 
 Retirada plantilla/ruta/meta de catálogo duplicado; accesos comunes al PDF con target blank y sin download, alias302 local/Cloudflare. Corregida extracción desplazada de foto TFDP70; ahora equipo completo original y procedencia actualizada. Fichas/catálogo65 páginas/portada regenerados;164 HTML/200 PDF.39 pruebas/check y seis casos responsive/HTTP/PDF correctos; flujo privado y preservación155 registros/cuatro borradores. [[25_Catalogo_PDF_Directo_y_Foto_TFDP70]]. Usuario autoriza publicación de avances locales; preparación y resultado en [[26_Actualizacion_Demo_Catalogo_Proveedores]]. Sin envíos, activaciones o DNS.

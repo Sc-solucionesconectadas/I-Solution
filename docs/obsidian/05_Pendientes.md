@@ -4,7 +4,7 @@
 
 - [x] Abrir catálogo PDF directo en pestaña nueva desde todos los accesos; retirar página intermedia y conservar alias de compatibilidad.
 - [x] Corregir fotografía TFDP70 en web/ficha/catálogo y validar39 pruebas, responsive, PDF y preview/ZIP privado, preservando155 registros/cuatro borradores.
-- [ ] Confirmar resultado efectivo de publicación autorizada y HTTP remoto en [[26_Actualizacion_Demo_Catalogo_Proveedores]].
+- [x] Publicación confirmada: commitf1090e0, Workers Builds success,669 recursos remotos correctos, PDF/pestaña/foto y correo vacío/noindex verificados. [[26_Actualizacion_Demo_Catalogo_Proveedores]].
 
 ## Estado vigente24 — 2026-11-18
 

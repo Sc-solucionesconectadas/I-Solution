@@ -2,6 +2,8 @@
 
 ## 2026-11-18 — Actualización autorizada del catálogo
 
+Publicación efectiva confirmada: commitf1090e0, build1874e48c-af4a-44f7-bd9a-c18509e4a72b completed/success.669 recursos públicos, hashes de PDF/foto corregidos, alias302 y pestaña PDF comprobados. [[26_Actualizacion_Demo_Catalogo_Proveedores]] contiene evidencia y límites vigentes.
+
 El usuario autorizó publicar los avances locales y correcciones25 en la demo existente mediante main/Workers Builds. Alcance y resultado verificable en [[26_Actualizacion_Demo_Catalogo_Proveedores]]. Artefacto preparado164 HTML/200 PDF/671 archivos y _redirects para catálogo antiguo; correo vacío/noindex conservados. No se cambia DNS, plan, dominio definitivo o panel remoto.
 
 ## 02/11/2026 — Mejoras publicadas y verificadas

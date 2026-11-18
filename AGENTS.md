@@ -2,6 +2,8 @@
 
 ## Corrección25 y publicación autorizada26 — 2026-11-18
 
+Publicación efectiva verificada: commitf1090e0, Workers Builds1874e48c success,669 recursos remotos correctos y cuatro hashes PDF/foto idénticos.123 entradas activas/ocho categorías ya están en la demo; apertura PDF en nueva pestaña y TFDP70 completos comprobados. Ver resultado26; la condición local/no publicada de notas16–24 es histórica.
+
 Leer docs/obsidian/25_Catalogo_PDF_Directo_y_Foto_TFDP70.md y26_Actualizacion_Demo_Catalogo_Proveedores.md. Catálogo abre PDF directo en pestaña nueva desde Inicio/Instrumentos/footer, sin página intermedia; alias antiguo302 mediante _redirects. Foto TFDP70 corregida desde fotografía de ficha oficial, ficha y catálogo regenerados.164 HTML/200 PDF,39 tests/check y flujo privado correctos;155 registros/cuatro borradores preservados. Usuario autorizó expresamente publicar i-Solution en su demo existente: usar GitHub main → Worker isolution-demo y verificar resultado real26. Mantener noindex/endpoint vacío; no publicar panel, tocar LMR/DNS/cuentas/envíos. Restricciones anteriores de no publicar quedan superadas solo para esta actualización de demo autorizada.
 
 ## Estado vigente24 — 2026-11-18
