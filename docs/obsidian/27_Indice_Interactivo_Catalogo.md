@@ -20,4 +20,6 @@ El catálogo actual conserva los123 instrumentos/líneas: **cinco páginas de í
 
 ## Publicación
 
-Autorizada la actualización de i-Solution por el usuario. Resultado remoto/commit se incorporará tras comprobar Cloudflare y comparar el PDF publicado con su SHA-256 local. No modificar dominio, DNS, correo o panel remoto por esta tarea. Las mejoras separadas de LMR se desarrollan en su propio repositorio.
+Publicación confirmada: commit `2639e7be8b70fb99dcbb893d813a8ad1fc32e6ee`, Workers Builds `5a16b140-d2af-4a8e-b23f-cfdcd001b8cd` completed/success. PDF remoto200/MIME application/pdf y SHA-256 idéntico al archivo local:70 páginas, cinco de índice y123 entradas. Archivo publicado de verificación en `.qa/catalogue-index-2026-11-18/catalogo-publicado.pdf`, ignorado.
+
+No se modificaron dominio, DNS, correo o panel remoto. Las mejoras separadas de LMR se desarrollan en su propio repositorio. Las notas finales se sincronizan mediante commit documental posterior sin cambios de la web.

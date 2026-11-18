@@ -2,6 +2,8 @@
 
 ## Índice PDF27 — 2026-11-18
 
+Publicación efectiva2639e7b, Workers Builds5a16b140 success; PDF remoto200/hash idéntico,70 páginas. El índice ya está en la demo. Mejoras LMR separadas permanecen locales salvo autorización específica.
+
 Leer docs/obsidian/27_Indice_Interactivo_Catalogo.md. Índice automático por instrumento/familia con enlaces internos, marca/serie/página, marcadores y vuelta al índice.123 entradas, cinco páginas de índice/70 totales; verificar con scripts/verify-instrumental-catalog.py. Catálogo/portada/metadata regenerados; datos y fichas intactos. Check/39 pruebas correctos. Usuario autoriza publicar i-Solution en su demo; LMR es tarea separada. Mantener noindex/transporte vacío y no enviar correos.
 
 ## Corrección25 y publicación autorizada26 — 2026-11-18

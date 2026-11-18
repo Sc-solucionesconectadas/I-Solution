@@ -2,6 +2,8 @@
 
 ## Índice del catálogo27 — 2026-11-18
 
+Publicado y verificado: commit2639e7b, Workers Builds5a16b140 success, PDF remoto200/hash correcto con70 páginas. Notas finales sincronizadas por commit documental posterior; [[27_Indice_Interactivo_Catalogo]].
+
 [[27_Indice_Interactivo_Catalogo]] añade índice enlazado por instrumento y familia,133 marcadores y vuelta al índice.123 entradas, cinco páginas de índice y70 totales. Numeración calculada después de medir el índice; documentos futuros siguen actualizándose automáticamente.39 pruebas y verificación real de destinos/números correctas. Usuario autoriza publicar el PDF en la demo existente.
 
 ## Correcciones25 y publicación26 — 2026-11-18

@@ -2,6 +2,8 @@
 
 ## 2026-11-18 — Índice interactivo del catálogo
 
+Publicación verificada2639e7b/Workers Builds5a16b140 success; PDF remoto200/MIME/hash idéntico y70 páginas. Resultado de nota27 sincronizado mediante commit documental posterior.
+
 Generador PDF calcula índice/páginas dinámicamente, añade enlaces y marcadores por instrumento/familia, y retorno desde contenido. PDF70 páginas,123 entradas, cinco páginas de índice; QA real138 enlaces/133 marcadores y39 pruebas correctas. Catálogo/portada/huellas actualizados; datos/fichas individuales intactos.155 registros/cuatro borradores conservados al refrescar panel. Publicación autorizada pendiente de verificación remota; [[27_Indice_Interactivo_Catalogo]].
 
 ## 2026-11-18 — Publicación efectiva del catálogo ampliado
