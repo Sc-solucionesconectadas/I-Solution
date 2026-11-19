@@ -1,5 +1,9 @@
 # i-Solution: repositorio independiente
 
+## Integración editorial28 — 18/11/2026
+
+Leer docs/obsidian/28_Integracion_Editorial_Cloud.md. Medios aprobados/SHA opcionales, regeneración automática de PDF cuando el panel publique un inventario. Demo actual intacta sin inventario;39 tests/check/build correctos. App/secretos/prueba CI pendientes; no declarar publicador listo ni enviar mails.
+
 ## Índice PDF27 — 2026-11-18
 
 Publicación efectiva2639e7b, Workers Builds5a16b140 success; PDF remoto200/hash idéntico,70 páginas. El índice ya está en la demo. Mejoras LMR separadas permanecen locales salvo autorización específica.

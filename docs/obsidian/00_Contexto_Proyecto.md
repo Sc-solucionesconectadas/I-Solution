@@ -1,5 +1,9 @@
 # Contexto de i-Solution
 
+## Integración editorial28 — 18/11/2026
+
+[[28_Integracion_Editorial_Cloud]] prepara medios aprobados, fichas/catálogo automáticos y verificación de versión. Sin inventario conserva la demo actual.39 tests/check/build correctos. App/secretos/prueba CI real del panel pendientes; sin correos o publicación de borradores reales.
+
 ## Índice del catálogo27 — 2026-11-18
 
 Publicado y verificado: commit2639e7b, Workers Builds5a16b140 success, PDF remoto200/hash correcto con70 páginas. Notas finales sincronizadas por commit documental posterior; [[27_Indice_Interactivo_Catalogo]].
