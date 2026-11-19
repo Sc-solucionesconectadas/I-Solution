@@ -1,5 +1,9 @@
 # Adaptador editorial y regeneración — 18/11/2026
 
+## Organización — 19/11/2026
+
+Usuario trasladó I-Solution y los otros cuatro repos a Sc-solucionesconectadas, organización con guion. origin actualizado; workflow manual usa propietario/checkout nuevos. Demo HTTP200 en su dominio habitual. App verificada; CI/secretos y prueba completa pendientes en Solution-Group-Admin/docs/obsidian/28_Organizacion_GitHub_y_Asistente.md. No se modifican instrumentos, imágenes, PDFs o formulario; no publicar borradores reales ni enviar correos.
+
 Preparado para el panel privado central. shared/panel-media.mjs consume inventario opcional content/instrumental-solution/panel-media.json con rutas propias, IDs y SHA; solo descarga medios aprobados y comprueba tamaño/integridad. Sin inventario no cambia el build actual.
 
 Si una publicación del panel incorpora el inventario, build:demo regenera fichas/catálogo/portada con requirements-authoring.txt vigente. Entorno .build-venv ignorado o Python proporcionado por CI. Índice automático y X-Solution-Revision para verificar despliegue.
